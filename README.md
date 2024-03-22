@@ -1,7 +1,6 @@
 # GRAND PRIX EVOLUTION
+An addon by Whills	
 
-            An addon by Whills
-			
 ==========================================
 
 Please check the '#Support' folder for more information.
@@ -22,4 +21,4 @@ Please avoid excessive play. Take a short break every hour, even if you don't th
 
 ==========================================
 
-                   Enjoy!
+Enjoy!
