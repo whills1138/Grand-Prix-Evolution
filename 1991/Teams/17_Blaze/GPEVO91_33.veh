@@ -1,0 +1,37 @@
+
+DefaultLivery="GPE91_32.tga"
+
+HDVehicle=Form91.hdv
+Graphics=Form91.gen
+Spinner=Form91_Spinner.gen
+Upgrades=Form91_Upgrades.ini
+Cameras=Form91.cam     
+Sounds=Form91_Sounds.sfx
+HeadPhysics=Form91_HeadPhysics.ini 
+Cockpit=Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP91_AI
+
+
+Number=33
+FullTeamName="GP91 17 Blaze"
+PitGroup="Group17"
+Driver="Mathieu d'Orleans"
+Description="GPE91: 33 Mathieu d'Orleans"
+Engine="Proctor"
+Manufacturer="Blaze - Proctor""
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Evo_1991"
+
+Team="Blaze"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1991"
+Category="Grand Prix Evo 1991"

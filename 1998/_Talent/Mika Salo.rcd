@@ -1,0 +1,23 @@
+Mika Salo
+{
+ //Driver Info
+ Nationality=Finnish
+ DateofBirth=30-11-66
+ Starts=94
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=6.5
+  Aggression=75.0
+  Reputation=99
+  Crash=1//74.0
+  Courtesy=90.0
+  Composure=89.5
+  Speed=75
+  StartSkill=85  //7.5
+  Recovery=45 //9.0
+  CompletedLaps=91.0
+  MinRacingSkill=91.8
+  TireManagement=72
+}

@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX95_12.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=1994\Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselDB                       // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+
+
+Number=12
+FullTeamName="GPEX1995 06 Simtek"
+PitGroup="Group6"
+Driver="Jos Verstappen"
+Description="GPE95: 12 Jos Verstappen"
+Engine="Ford"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1995"
+
+Manufacturer="Simtek - Ford"
+Transmission="6-speed semi-auto"
+Team="Simtek"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 1995"
+
+
+Category="Grand Prix Evo Extra,1995 Season"

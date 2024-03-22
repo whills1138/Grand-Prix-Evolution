@@ -1,0 +1,23 @@
+Mika Hakkinen
+{
+ //Driver Info
+ Nationality=Finnish
+ DateofBirth=28-9-68
+ Starts=149
+ Poles=29
+ Wins=18
+ DriversChampionships=2
+
+  //QualifyingAbility=1.9
+  Aggression=85.0
+  Reputation=99
+  Crash=1//96.0
+  Courtesy=78.0
+  Composure=99.5
+  Speed=98
+  StartSkill=85  //1.5
+  Recovery=45 //35.0
+  CompletedLaps=92.0
+  MinRacingSkill=95.2
+  TireManagement=83
+}

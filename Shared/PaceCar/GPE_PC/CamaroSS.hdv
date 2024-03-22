@@ -1,0 +1,569 @@
+// Copyright & Proprietary Reiza Studios Ltda
+//
+//
+[GENERAL]
+Rules=0
+GarageDisplayFlags=175
+Mass=1850
+Inertia=( 3000.34090176298 , 3180.32803225 , 535.049421512977 )
+FuelTankPos=( 0 , 0.15 , -0.3 )
+FuelTankMotion=(981,0.67)
+Notes=""
+Symmetric=1
+DamageFile=CamaroSS_damage.ini
+CGHeight=0.372
+CGHeightAI=0.342
+CGRightRange=(0.5,0.001,-1)
+CGRightsetting=0
+CGRearRange=(0.438,0.01,1)
+CGRearsetting=1
+AICGRearRange=(0.46,0.0,1)
+WedgeRange=(0,0,0)
+WedgeSetting=0
+WedgePushrod=0
+GraphicalOffset=(0,0.025,0)
+Undertray00=( 0.809 , 0 , -1.425 )
+Undertray01=( -0.809 , 0 , -1.425 )
+Undertray02=( 0.809 , 0 , 1.425 )
+Undertray03=( -0.809 , 0 , 1.425 )
+Undertray04=( 0.8 , 0.025 , -0.95 )
+Undertray05=( -0.8 , 0.025 , -0.95 )
+Undertray06=( 0.8 , 0.025 , 0.95 )
+Undertray07=( -0.8 , 0.025 , 0.95 )
+Undertray08=( 0.75 , 0.06 , -2.1 )
+Undertray09=( -0.75 , 0.06 , -2.1 )
+Undertray10=( 0 , 0 , 0 )
+UndertrayParams=( 150000 , 2500 , 1 )
+TireBrand=CamaroSS_tires.tbc
+FrontTireCompoundSetting=0
+RearTireCompoundSetting=0
+FuelRange=( 1 , 1 , 71 )
+FuelSetting=34
+NumPitstopsRange=(0,1,4)
+NumPitstopsSetting=0
+Pitstop1Range=(1,1,71)
+Pitstop1Setting=17
+Pitstop2Range=(1,1,71)
+Pitstop2Setting=17
+Pitstop3Range=(1,1,71)
+Pitstop3Setting=17
+Pitstop4Range=(1,1,71)
+Pitstop4Setting=17
+AIAimSpeedsPerWP=(25,35,45,55,70,90,110,140)
+AISlipReaction=(1,0.1)
+AICornerReductionBase=120
+AIForcePassCarLength=1.0 // If we're gaining speed on the car infront, at this distance we greatly increase chance to pass. Default 0.6 - Value used decreases with aggression (so less chance to try to pass)
+AIPassLatScalar=2.0 // Amount of extra space in meters left at 0 aggression when trying to pass. Default 2.0
+AIStartOffset=3 //How long before merging at the start: min 0.5, max 10.0
+AIStartMerge=10 //How long to merge at the start: min 3.0, max 20.0
+AISuddenMoveScalar=0.5 
+AIMaxAggression=0.6
+AIMinPassesPerTick=6
+AIRotationThreshold=1.0
+AIEvenSuspension=1.0  
+AISpringRate=1
+AIDamperSlow=0.8
+AIDamperFast=0.8
+AIDownforceZArm=0.0
+AIDownforceBias=0.5
+AITorqueStab=(1.0,1.0,1.0) 
+AIFuelMult=1.0
+AIPerfUsage=(0.92, 0.90, 0.98)
+AITableParams=(-1,-1)
+AIWingDamageLift=0.0
+AIQualLapsperRun=4 
+FeelerFlags=0  
+FeelerOffset=(0,0,-0.0712500000000001)
+FeelersAtCGHeight=1
+FlatspotHeadShake=0.02  
+FlatspotForceFeedback=0.0001 
+FlatspotMaximumRPS=50
+//FlatspotFFBSpeedFactor=1.0 
+
+[PITMENU]
+StopGo=1
+Fuel=1
+AllTires=0
+FrontRearTires=(0,0)
+LeftRightTires=(0,0)
+IndividualTires=(1,1,1,1)
+FenderFlare=(0,0)
+FrontWing=0
+RearWing=0
+Driver=1
+Wedge=0
+Radiator=0
+Trackbar=0
+Pressure=(1,1,1,1)
+SpringRubber=(0,0,0,0)
+Damage=2
+StopGoSimultaneous=0
+PressureOnTheFly=1
+DamagedTiresonly=0
+CompoundRestrictions=3
+Preparation=(150,25,0.5,1.0)
+FuelTime=(12,2,1,0.5,1)
+TireTime=(14,28,0.5,0)
+SingleTireTime=7
+FenderFlareTime=2.0
+FrontWingTime=(15,30)
+RearWingTime=(12,50)
+DriverTime=(10,1.0,1.0,1)
+WedgeTime=1.5
+RadiatorTime=5
+TrackBarTime=1.5
+PressureTime=2
+SpringRubberTime=3
+Damagetime=(10,2,60,1)
+
+[AIDPENALTIES] 
+TC=(0.00,0.00,0.00)               
+ABS=(0.000,0.00,0.00)            
+Stability=(0.000,0.025,0.050)       
+Autoshift=(0.00,0.0,0.0,0.00)     
+Steering=(0.000,0.010,0.015,0.020)  
+Braking=(0.005,0.010,0.015)
+Invulnerable=(0.00,0.00)            
+Opposite=(0.00,0.00)                
+SpinRecovery=(0.00,0.00)            
+AutoPit=(0.00,0.00)                 
+AutoLift=(0.00,0.0)                
+AutoBlip=(0.00,0.0)
+
+[LEFTFENDER]
+FenderLiftParams=(0.05,0,1)
+FenderCenter=(0,0,0)
+
+[RIGHTFENDER]
+FenderLiftParams=(0.15,0,1)
+FenderCenter=(0,0,2.85)
+
+[DIFFUSER]
+DiffuserBase=(0,0,0)
+DiffuserFrontHeight=(0)
+DiffuserRake=(-0.04,0,10)
+DiffuserLimits=(0.05,0.15,0.15)
+DiffuserStall=(0,0)
+DiffuserCenter=(0,0,-0.7)
+DiffuserSideways=(0)
+DiffuserPeakYaw=(0,1.001)
+DiffuserDraftLiftMult=1.40
+
+[FRONTWING]
+FWRange=(0,1,1)
+FWSetting=1
+FWMaxHeight=(0.175)
+FWDragParams=(0.01,0,0)
+FWLiftParams=(-0.06,0,0)
+FWdraftLiftMult=1
+FWLiftHeight=(0.5)
+FWLiftSideways=(0)
+FWLiftPeakYaw=(1,1.001)
+FWLeft=(-0.5,0,0)
+FWRight=(0.5,0,0)
+FWUp=(0,0,0)
+FWDown=(0,0,0)
+FWAft=(0,0,0)
+FWFore=(0,0,0)
+FWRot=(0,0,0)
+FWCenter=(0,0,-1.2)
+
+[REARWING]
+RWRange=(0,1,1)
+RWSetting=1
+RWDragParams=(0,0,0)
+RWLiftParams=(0,0,0)
+RWdraftLiftMult=1
+RWLiftSideways=(0)
+RWLiftPeakYaw=(0,1.001)
+RWLeft=(-0.5,0,0)
+RWRight=(0.5,0,0)
+RWUp=(0,0,0)
+RWDown=(0,0,0)
+RWAft=(0,0,0)
+RWFore=(0,0,0)
+RWRot=(0,0,0)
+RWCenter=(0,0.6,0.8)
+
+[BODYAERO]
+BodyDragBase=(0.50)
+BodyDragHeightAvg=(0.5)
+BodyDragHeightDiff=(0)
+BodyMaxHeight=(0.175)
+BodyLeft=(0,0,0)
+BodyRight=(0,0,0)
+BodyUp=(0,-3,0)
+BodyDown=(0,3,0)
+BodyAft=(0,0.33,-0.7)
+BodyFore=(0,0,0)
+BodyRot=(3,2,1)
+BodyCenter=(0,0.3,-2.5)
+RadiatorRange=(0,1,1)
+RadiatorSetting=5
+RadiatorDrag=(0)
+RadiatorLift=(0)
+BrakeDuctRange=(0,1,1)
+BrakeDuctSetting=0
+BrakeDuctDrag=(0)
+BrakeDuctLift=(0)
+BaseDropoff=0.140
+LeadingExponent=80.00
+FollowingExponent=2.0
+VehicleWidth=2.20
+SideEffect=0.35
+SideLeadingExponent=2.0
+SideFollowingExponent=3.5
+
+[SUSPENSION]
+PhysicalModelFile=CamaroSS_susp.pm
+CorrectedInnerSuspHeight=0
+ApplySlowToFastDampers=1
+LimitFastDampers=1
+AdjustSuspRates=0
+AlignWheels=1
+CenterWheelsOnBodyX=0
+FrontWheelTrack=1.618
+RearWheelTrack=1.618
+LeftWheelBase=2.852
+RightWheelBase=2.852
+SpringBasedAntiSway=1
+AllowNoAntiSway=0
+FrontAntiswayRange=( 30000 , 0 , 1 )
+FrontAntiswaySetting=1
+RearAntiswayRange=( 5000 , 5000 , 3 )
+RearAntiswaySetting=1
+FrontToeInRange=( -0.5 , 0.05 , 21 )
+FrontToeInSetting=12
+RearToeInRange=( 0 , 0.05 , 11 )
+RearToeInSetting=2
+LeftCasterRange=( 6 , 0 , 1 )
+LeftCasterSetting=1
+RightCasterRange=( 6 , 0 , 1 )
+RightCasterSetting=1
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+[CONTROLS]
+MaxForceAtSteeringRack=-2000.0
+SteeringFFBMult=2.0
+SmoothingLevel=9.0
+SmoothingSamples=3.0
+PneumaticTrailGripFractPower=2.5
+LowFFBmultiplier=0.15
+LowFFBdeadzone=2.0
+SteerLockRange=( 10 , 1 , 24 )
+SteerLockSetting=20
+SteerLockUserSetting=4
+SteeringRotation=(900, 0.0, 0)
+SteeringRotationSetting=1
+OnboardBrakeBias=0
+RearBrakeRange=(0.25,0.01,6)
+RearBrakeSetting=2
+BrakePressureRange=(0.6,0.01,41)
+BrakePressureSetting=25
+HandbrakePressRange=(1,0,1)
+HandbrakePressSetting=0
+UpshiftAlgorithm=(0.98,0)
+DownshiftAlgorithm=(0.90,0.75,0.8)
+AutoUpshiftGripThresh=0.4
+AutoDownshiftGripThresh=0.4
+SpeedSensitivityMaxSpeed=50 //in meters per second. * 3.6 for kmph / 2.25 for mph. Recommended 75% of top speed.
+TractionControlGrip=(1.15,0.15)
+TractionControlLevel=(0.5,0.90)
+ABS4Wheel=1
+ABSGrip=(3,-0.15)
+ABSLevel=(0.75, 0.55) 
+ThrottleControlAidLevel=(0,3)
+ThrottleControlAidLevelSetting=1
+ThrottleControlChange=1
+AutoShiftAidLevel=(0,4)
+AutoShiftAidLevelSetting=4
+AutoShiftControlChange=1
+ABSAidLevel=(0,2)
+ABSAidLevelSetting=1
+AbsControlChange=0
+
+
+[ENGINE]
+Normal=CamaroSS_engine.ini
+RestrictorPlate=CamaroSS_engine.ini
+GeneralTorqueMult=0.88
+GeneralPowerMult=0.88
+
+
+[DRIVELINE]
+ClutchInertia=0.05
+ClutchTorque=946.2
+ClutchFriction=2
+BaulkTorque=712.5
+ClutchEngageRate=3
+AllowManualOverride=1
+SemiAutomatic=1
+UpshiftDelay=0.1
+UpshiftClutchTime=0.01
+UpshiftLiftThrottle=0.3
+DownshiftDelay=0.1
+DownshiftClutchTime=0.01
+DownshiftBlipThrottle=0.60
+WheelDrive=REAR
+DownshiftProtection=1.2
+GearFile=CamaroSS_gears.ini
+AllowGearingChanges=0
+AllowFinalDriveChanges=0
+FinalDriveSetting=0
+ReverseSetting=0
+ForwardGears=6
+Gear1Setting=0
+Gear2Setting=1
+Gear3Setting=2
+Gear4Setting=3
+Gear5Setting=4
+Gear6Setting=5
+//
+//
+//
+//
+DiffPowerRange=( 0.25 , 0.01 , 1 )
+DiffPowerSetting=0
+DiffCoastRange=( 0.35 , 0.01 , 1 )
+DiffCoastSetting=0
+DiffPreloadRange=( 15 , 1 , 1 )
+DiffPreloadSetting=0
+//
+//
+//
+//
+//
+// Preload4WDEffect=(0.0, 0.0, 0.0) // according to ISI not implemented
+
+
+[FRONTLEFT]
+BumpTravel=-0.06
+ReboundTravel=-0.145
+BumpStopSpring=0
+BumpStopRisingSpring=15000000
+BumpStopDamper=0
+BumpStopRisingDamper=750000
+BumpStage2=0.25
+ReboundStage2=-0.25
+FrictionTorque=0.5
+SpinInertia=2.39805
+SpinInertiaAI=0.9
+PushrodSpindle=(0.00608236939973184,-0.420352185484335,-0.0330242100862916)
+PushrodBody=(0.00608236939973184,1.57964781451566,-0.0330242100862916)
+CamberRange=( -2 , 0.1 , 21 )
+CamberSetting=10
+PressureRange=( 125 , 5 , 31 )
+PressureSetting=15
+PackerRange=( 0 , 0.001 , 11 )
+PackerSetting=0
+SpringMult=1
+SpringRange=( 30000 , 0 , 1 )
+SpringSetting=0
+RideHeightRange=( 0.12 , 0.001 , 1 )
+RideHeightSetting=0
+DamperMult=1
+SlowBumpRange=( 3500 , 700 , 3 )
+SlowBumpSetting=1
+FastBumpRange=( 500 , 125 , 3 )
+FastBumpSetting=6
+SlowReboundRange=( 4500 , 750 , 3 )
+SlowReboundSetting=1
+FastReboundRange=( 500 , 250 , 3 )
+FastReboundSetting=6
+BrakeDiscRange=(0.03,0,0)
+BrakeDiscSetting=0
+BrakeDiscInertia=0
+BrakeResponseCurve=(-750,150,500,1100)
+BrakeWearRate=0
+BrakeFailure=(0,0)
+BrakeTorque=3550
+BrakeHeating=0.0005
+BrakeCooling=(0.0165,0.00032)
+BrakeDuctCooling=0.000032
+BrakeGlow=(550,850)
+BrakeTorqueAI=3550
+
+[FRONTRIGHT]
+BumpTravel=-0.06
+ReboundTravel=-0.145
+BumpStopSpring=0
+BumpStopRisingSpring=15000000
+BumpStopDamper=0
+BumpStopRisingDamper=750000
+BumpStage2=0.25
+ReboundStage2=-0.25
+FrictionTorque=0.5
+SpinInertia=2.39805
+SpinInertiaAI=0.9
+PushrodSpindle=(-0.00608236939973184,-0.420352185484335,-0.0330242100862916)
+PushrodBody=(-0.00608236939973184,1.57964781451566,-0.0330242100862916)
+CamberRange=( -2 , 0.1 , 21 )
+CamberSetting=10
+PressureRange=( 125 , 5 , 31 )
+PressureSetting=15
+PackerRange=( 0 , 0.001 , 11 )
+PackerSetting=0
+SpringMult=1
+SpringRange=( 30000 , 0 , 1 )
+SpringSetting=0
+RideHeightRange=( 0.12 , 0.001 , 1 )
+RideHeightSetting=0
+DamperMult=1
+SlowBumpRange=( 3500 , 700 , 3 )
+SlowBumpSetting=1
+FastBumpRange=( 500 , 125 , 3 )
+FastBumpSetting=6
+SlowReboundRange=( 4500 , 750 , 3 )
+SlowReboundSetting=1
+FastReboundRange=( 500 , 250 , 3 )
+FastReboundSetting=6
+BrakeDiscRange=(0.03,0,0)
+BrakeDiscSetting=0
+BrakeDiscInertia=0
+BrakeResponseCurve=(-750,150,500,1100)
+BrakeWearRate=0
+BrakeFailure=(0,0)
+BrakeTorque=3550
+BrakeHeating=0.0005
+BrakeCooling=(0.0165,0.00032)
+BrakeDuctCooling=0.000032
+BrakeGlow=(550,850)
+BrakeTorqueAI=3550
+
+[REARLEFT]
+BumpTravel=-0.06
+ReboundTravel=-0.155
+BumpStopSpring=0
+BumpStopRisingSpring=15000000
+BumpStopDamper=0
+BumpStopRisingDamper=750000
+BumpStage2=0.25
+ReboundStage2=-0.25
+FrictionTorque=3
+SpinInertia=2.531275
+SpinInertiaAI=1
+PushrodSpindle=(0,-0.2,0)
+PushrodBody=(0,2,0)
+CamberRange=( -2 , 0.1 , 21 )
+CamberSetting=10
+PressureRange=( 125 , 5 , 31 )
+PressureSetting=15
+PackerRange=( 0 , 0.001 , 11 )
+PackerSetting=0
+SpringMult=1
+SpringRange=( 32000 , 0 , 1 )
+SpringSetting=0
+RideHeightRange=( 0.13 , 0.001 , 1 )
+RideHeightSetting=0
+DamperMult=1
+SlowBumpRange=( 3500 , 700 , 3 )
+SlowBumpSetting=1
+FastBumpRange=( 500 , 125 , 3 )
+FastBumpSetting=6
+SlowReboundRange=( 4500 , 750 , 3 )
+SlowReboundSetting=1
+FastReboundRange=( 500 , 250 , 3 )
+FastReboundSetting=6
+BrakeDiscRange=(0.03,0,0)
+BrakeDiscSetting=0
+BrakeDiscInertia=0
+BrakeResponseCurve=(-750,150,500,1100)
+BrakeWearRate=0
+BrakeFailure=(0,0)
+BrakeTorque=3400
+BrakeHeating=0.0006
+BrakeCooling=(0.01463,0.00012)
+BrakeDuctCooling=0.0000264
+BrakeGlow=(550,850)
+BrakeTorqueAI=3400
+
+[REARRIGHT]
+BumpTravel=-0.06
+ReboundTravel=-0.155
+BumpStopSpring=0
+BumpStopRisingSpring=15000000
+BumpStopDamper=0
+BumpStopRisingDamper=750000
+BumpStage2=0.25
+ReboundStage2=-0.25
+FrictionTorque=3
+SpinInertia=2.531275
+SpinInertiaAI=1
+PushrodSpindle=(0,-0.2,0)
+PushrodBody=(0,2,0)
+CamberRange=( -2 , 0.1 , 21 )
+CamberSetting=10
+PressureRange=( 125 , 5 , 31 )
+PressureSetting=15
+PackerRange=( 0 , 0.001 , 11 )
+PackerSetting=0
+SpringMult=1
+SpringRange=( 32000 , 0 , 1 )
+SpringSetting=0
+RideHeightRange=( 0.13 , 0.001 , 1 )
+RideHeightSetting=0
+DamperMult=1
+SlowBumpRange=( 3500 , 700 , 3 )
+SlowBumpSetting=1
+FastBumpRange=( 500 , 125 , 3 )
+FastBumpSetting=6
+SlowReboundRange=( 4500 , 750 , 3 )
+SlowReboundSetting=1
+FastReboundRange=( 500 , 250 , 3 )
+FastReboundSetting=6
+BrakeDiscRange=(0.03,0,0)
+BrakeDiscSetting=0
+BrakeDiscInertia=0
+BrakeResponseCurve=(-750,150,500,1100)
+BrakeWearRate=0
+BrakeFailure=(0,0)
+BrakeTorque=3400
+BrakeHeating=0.0006
+BrakeCooling=(0.01463,0.00012)
+BrakeDuctCooling=0.0000264
+BrakeGlow=(550,850)
+BrakeTorqueAI=3400

@@ -1,0 +1,22 @@
+Gianni Morbidelli
+{
+//Driver Info
+  Nationality=Italian
+  DateofBirth=30-1-1968
+  Starts=82
+  Poles=0
+  Wins=0
+  //QualifyingAbility=11.0
+
+  Aggression=70
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=89.5
+  Speed=79
+  Reputation=99
+  Crash=1//86
+  Composure=88
+  CompletedLaps=93
+  TireManagement=70
+}

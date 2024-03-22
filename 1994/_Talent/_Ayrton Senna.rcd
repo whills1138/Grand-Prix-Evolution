@@ -1,0 +1,23 @@
+Ayrton Senna
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=17-9-60
+ Starts=122
+ Poles=20
+ Wins=22
+ //QualifyingAbility=2.0
+ 
+
+  Aggression=85
+  StartSkill=87  //2.0
+  Courtesy=75
+  Recovery=45
+  MinRacingSkill=99.25
+  Speed=98.5
+  Reputation=99
+  Crash=1//99
+  Composure=95
+  CompletedLaps=99
+  TireManagement=84
+}

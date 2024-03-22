@@ -1,0 +1,111 @@
+//GP94 Graphics file edited by Whills (c)All Rights Reserved
+
+SearchPath=<VEHDIR>\Grand_Prix_Evo
+SearchPath=<VEHDIR>\
+
+MASFile=1994\Form94.mas
+MASFile=Shared\GP_maps.mas
+
+ReflectPlane=(0.0, -1.0, -0.0, 0.00)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=<12345>94body.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=94_tlight.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0)
+  
+  MeshFile=94body_shad.gmt   CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowObject=(Dynamic, Solid, 512, 512, fis_undershadow.dds)
+
+  Actor=VEHICLE
+
+ Instance=Helmet
+  {
+    Moveable=True
+    MeshFile=94helmet.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0)  Reflect=True
+  }
+
+  Instance=Fwing
+  {
+    Moveable=True
+    MeshFile=94Fwing.gmt   CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 64, 64)  Reflect=True
+	MeshFile=<12345>94.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0)  Reflect=True
+  }
+
+  Instance=Rwing
+  {
+    Moveable=True
+    MeshFile=94Rwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(1000.0)  Reflect=True
+  }
+  
+  Instance=DEBRIS5
+  {
+    Moveable=True
+    MeshFile=<12345>94susp_lf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+  
+  Instance=DEBRIS6
+  {
+    Moveable=True
+    MeshFile=<12345>94susp_rf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=SUSP_LR
+  {
+    Moveable=True
+    MeshFile=94susp_lr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=SUSP_RR
+  {
+    Moveable=True
+    MeshFile=94susp_rr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=LFT
+  {
+    Moveable=True
+    MeshFile=94tire_lf_sh.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+
+  Instance=RFT
+  {
+   Moveable=True
+   MeshFile=94tire_rf_sh.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+
+  Instance=LRT
+  {
+    Moveable=True
+    MeshFile=94tire_lr.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+
+  Instance=RRT
+  {
+    Moveable=True
+    MeshFile=94tire_rr.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+  
+  Instance=LFSPINDLE
+  {
+    Moveable=True
+	MeshFile=94spin_lf_sh.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)  Reflect=True
+  }
+  
+  Instance=LRSPINDLE
+  {
+    Moveable=True
+	MeshFile=94spin_lr.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)  Reflect=True
+  }
+  
+  Instance=RFSPINDLE
+  {
+    Moveable=True
+	MeshFile=94spin_rf_sh.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)  Reflect=True
+  }
+  
+  Instance=RRSPINDLE
+  {
+    Moveable=True
+	MeshFile=94spin_rr.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.00)  Reflect=True
+  }
+}

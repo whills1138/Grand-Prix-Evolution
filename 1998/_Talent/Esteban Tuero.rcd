@@ -1,0 +1,23 @@
+Esteban Tuero
+{
+ //Driver Info
+ Nationality=Argentinian
+ DateofBirth=22-4-78
+ Starts=16
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=9.5
+  Aggression=78.0
+  Reputation=99
+  Crash=1//60.0
+  Courtesy=90.0
+  Composure=82.0
+  Speed=65
+  StartSkill=85  //20.0
+  Recovery=45 //8.0
+  CompletedLaps=90.0
+  MinRacingSkill=89.0
+  TireManagement=70
+}

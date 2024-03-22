@@ -1,0 +1,29 @@
+DefaultLivery="GPE_PC.tga"
+
+HDVehicle=CamaroSS.hdv
+Graphics=CamaroGP.gen
+GenString=SCRGUN
+Sounds=CamaroSS.sfx
+Cameras=CamaroSS_cams.cam
+HeadPhysics=CamaroSS_Headphysics.ini
+Cockpit=CamaroSS_cockpitinfo.ini
+
+Number=779
+Team="GPE Safety Car"
+PitGroup="Group17"
+Driver="Bernd Maylander"
+Description="Camaro SS: GPE Safety Car"
+Engine="6.2L V8 RWD"
+Manufacturer="Chevrolet"
+Transmission="6-speed auto (semi-auto optional)"
+Extra="The Camaro SS features ABS & Traction Control, adjustable from the garage or in-car using the respective input bindings."
+Classes="CamaroSS PaceCar NO_AI"
+FullTeamName="GPE Safety Car"
+TeamFounded=2006
+TeamHeadquarters=""
+TeamStarts=00
+TeamPoles=00
+TeamWins=00
+TeamWorldChampionships=0
+Category="Camaro SS"
+ID=50

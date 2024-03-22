@@ -1,0 +1,39 @@
+
+DefaultLivery="GPX0101.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra01_Upgrades.ini   
+GenString=B1           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX01_AI
+
+
+Number=01
+FullTeamName="GPEX2001 01 Ferrari"
+PitGroup="Group1"
+Driver="Michael Schumacher"
+Description="GPE01: 01 Michael Schumacher"
+Engine="Ferrari"
+Transmission="6-speed semi-auto (7-speed optional)"
+Extra="Available driving aids : launch control, auto shifting, traction control                                                    Recommended Opponents : 21"
+Classes="Grand_Prix_Extra_2001"
+
+Manufacturer="Ferrari - Ferrari"
+Team="Ferrari"
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+OpponentFilter="Grand Prix Extra 2001"
+Category="Grand Prix Evo Extra,2001 Season"

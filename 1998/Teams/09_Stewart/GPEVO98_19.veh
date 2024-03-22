@@ -1,0 +1,39 @@
+
+DefaultLivery="GPE9809.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=BN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+
+
+Number=19
+FullTeamName="GP98 09 Stewart"
+PitGroup="Group9"
+Description="GPE98: 19 Jos Verstappen"
+Driver="Jos Verstappen"
+Engine="Ford"
+Manufacturer="Stewart - Ford"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+Classes="Grand_Prix_Evo_1998"
+
+Team="Stewart"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1998"
+Category="Grand Prix Evo 1998"

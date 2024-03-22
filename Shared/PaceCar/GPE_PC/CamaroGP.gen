@@ -1,0 +1,120 @@
+//Chevrolet Camaro SS StockCar Safety Car
+
+SearchPath=<VEHDIR>\Grand_Prix_Evo\
+SearchPath=<VEHDIR>
+
+MasFile=..\Grand_Prix_Evo\Shared\Pacecar\GPE_PC\GPE_PC.mas
+MasFile=..\Pacecar\CamaroSS_SC\CamaroUpdate.mas
+MasFile=..\Pacecar\CamaroSS_SC\CamaroSS_SC.mas
+MasFile=..\cmaps.mas
+
+//----------------------------------------
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+
+  MeshFile=CAM_BODY_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0) Reflect=True
+  MeshFile=CAM_BODY_B.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(30.0) LODOut=(180.0) Reflect=True
+  MeshFile=CAM_BODY_C.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(180.0) LODOut=(800.0) Reflect=True
+  MeshFile=CAM_PARTS_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0) Reflect=True
+  MeshFile=CAM_PARTS_B.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(30.0) LODOut=(180.0) Reflect=True
+  MeshFile=CAM_PARTS_C.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(180.0) LODOut=(800.0) Reflect=True
+  MeshFile=CAM_PACE_LIGHTS_A.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0) Reflect=True
+  MeshFile=CAM_PACE_LIGHTS_B.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(30.0) LODOut=(180.0) Reflect=True
+  MeshFile=CAM_PACE_LIGHTS_C.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(180.0) LODOut=(800.0) Reflect=True
+
+
+  MeshFile=CAM_SHAD.gmt  CollTarget=False HATTarget=False ShadowObject=(True, Solid, 256, 256, CAM_UNDERSHAD.dds) LODIn=(0.0) LODOut=(200.0)
+
+
+  MeshFile=CAM_COL.gmt CollTarget=True HATTarget=False Render=False LODIn=(0.0) LODOut=(200.0)
+
+  Actor=VEHICLE  
+  
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=CAM_LF_WH_A.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(0.0) LODOut=(30.0) Reflect=True
+    MeshFile=CAM_LF_WH_B.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(30.0) LODOut=(120.0) Reflect=True
+    MeshFile=CAM_LF_WH_C.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(120.0) LODOut=(200.0) Reflect=True
+    MeshFile=CAM_LF_WH_D.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(200.0) LODOut=(800.0) Reflect=True
+  }
+
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=CAM_RF_WH_A.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(0.0) LODOut=(30.0) Reflect=True
+    MeshFile=CAM_RF_WH_B.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(30.0) LODOut=(120.0) Reflect=True
+    MeshFile=CAM_RF_WH_C.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(120.0) LODOut=(200.0) Reflect=True
+    MeshFile=CAM_RF_WH_D.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(200.0) LODOut=(800.0) Reflect=True
+   }
+
+ 
+  Instance=LRTIRE
+   {
+    Moveable=True
+    MeshFile=CAM_LR_WH_A.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(0.0) LODOut=(30.0) Reflect=True
+    MeshFile=CAM_LR_WH_B.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(30.0) LODOut=(120.0) Reflect=True
+    MeshFile=CAM_LR_WH_C.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(120.0) LODOut=(200.0) Reflect=True
+    MeshFile=CAM_LR_WH_D.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(200.0) LODOut=(800.0) Reflect=True
+  }
+
+ 
+   Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=CAM_RR_WH_A.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(0.0) LODOut=(30.0) Reflect=True
+    MeshFile=CAM_RR_WH_B.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(30.0) LODOut=(120.0) Reflect=True
+    MeshFile=CAM_RR_WH_C.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(120.0) LODOut=(200.0) Reflect=True
+    MeshFile=CAM_RR_WH_D.GMT CollTarget=False HATTarget=False ShadowReceiver=True ShadowCaster=False  LODIn=(200.0) LODOut=(800.0) Reflect=True
+  }
+
+  Instance=LFSPINDLE
+  {
+    Moveable=True
+    MeshFile=CAM_LF_CAL.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0)
+  }
+
+  Instance=RFSPINDLE
+  {
+    Moveable=True
+    MeshFile=CAM_RF_CAL.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0) 
+  }
+
+  Instance=LRSPINDLE
+  {
+    Moveable=True
+    MeshFile=CAM_LR_CAL.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0)
+  }
+
+  Instance=RRSPINDLE
+  {
+    Moveable=True
+    MeshFile=CAM_RR_CAL.gmt CollTarget=False HATTarget=False ShadowReceiver=True   LODIn=(0.0) LODOut=(30.0)
+  }
+
+  Instance=HELMET
+  {
+    Moveable=True
+    MeshFile=CAM_HELMET_A.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(0.00) LODOut=(8.0)
+    MeshFile=CAM_HELMET_B.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(8.00) LODOut=(20.0)
+    MeshFile=CAM_HELMET_C.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(20.00) LODOut=(100.0)
+  }
+
+  Instance=DRIVER
+  {
+    Moveable=True
+    MeshFile=CAM_DRIVER_A.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(0.00) LODOut=(8.0)
+    MeshFile=CAM_DRIVER_B.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(8.00) LODOut=(20.0)
+    MeshFile=CAM_DRIVER_C.gmt CollTarget=False HATTarget=False ShadowCaster=False ShadowReceiver=True LODIn=(20.00) LODOut=(100.0)  
+  }
+
+  Instance=WARNINGLIGHT
+  {
+   Moveable=True
+   MeshFile=WARNLIGHTS.GMT CollTarget=False HATTarget=False ShadowReceiver=True LODIn=(0.0) LODOut=(800.0)
+  }
+
+}

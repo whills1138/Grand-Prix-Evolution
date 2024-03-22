@@ -1,0 +1,22 @@
+Alessandro Zanardi
+{
+//Driver Info
+  Nationality=Italian
+  DateofBirth=23-10-1966
+  Starts=82
+  Poles=0
+  Wins=0
+  //QualifyingAbility=14.5
+
+  Aggression=69
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=85
+  Speed=71
+  Reputation=99
+  Crash=1//80
+  Composure=80
+  CompletedLaps=90
+  TireManagement=72
+}

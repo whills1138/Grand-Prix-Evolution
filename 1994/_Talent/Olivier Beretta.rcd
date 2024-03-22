@@ -1,0 +1,22 @@
+Olivier Beretta
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=23-11-1969
+  Starts=109
+  Poles=0
+  Wins=0
+  //QualifyingAbility=13.5
+
+  Aggression=72
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=87.25
+  Speed=73
+  Reputation=99
+  Crash=1//83
+  Composure=86
+  CompletedLaps=91
+  TireManagement=70
+}

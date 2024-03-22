@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX95_30.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=1994\Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehDB                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+
+
+Number=30
+FullTeamName="GPEX1995 13 Sauber"
+PitGroup="Group13"
+Driver="Heinz-Harald Frentzen"
+Description="GPE95: 30 Heinz-Harald Frentzen"
+Engine="Ford"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1995"
+
+Manufacturer="Sauber - Ford"
+Transmission="6-speed semi-auto"
+Team="Sauber"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 1995"
+
+
+Category="Grand Prix Evo Extra,1995 Season"

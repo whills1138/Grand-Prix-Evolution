@@ -1,0 +1,23 @@
+Damon Hill
+{
+ //Driver Info
+ Nationality=English
+ DateofBirth=17-9-60
+ Starts=89
+ Poles=21
+ Wins=22
+ DriversChampionships=1
+
+  //QualifyingAbility=3
+  Aggression=77.0
+  Reputation=99
+  Crash=1//85.0
+  Courtesy=75.0
+  Composure=95.5
+  Speed=88
+  StartSkill=85  //4.0
+  Recovery=45 //8.5
+  CompletedLaps=90.0
+  MinRacingSkill=94.5
+  TireManagement=83
+}

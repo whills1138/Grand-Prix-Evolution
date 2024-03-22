@@ -1,0 +1,23 @@
+Jacques Villeneuve
+{
+ //Driver Info
+ Nationality=Canadian
+ DateofBirth=9-4-71
+ Starts=99
+ Poles=13
+ Wins=11
+ DriversChampionships=1
+
+  //QualifyingAbility=2.5
+  Aggression=84.0
+  Reputation=99
+  Crash=1//92.0
+  Courtesy=80
+  Composure=98.5
+  Speed=87
+  StartSkill=85  //7.5
+  Recovery=45 //13.0
+  CompletedLaps=96.0
+  MinRacingSkill=94.0
+  TireManagement=86
+}

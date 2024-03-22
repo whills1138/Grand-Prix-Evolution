@@ -1,0 +1,23 @@
+Helmut Becker//Roberto Moreno
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=6.0
+    Aggression=77
+    Reputation=99
+    Crash=1//80
+    Courtesy=90
+    Composure=85
+    Speed=84.5
+    StartSkill=75
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=90
+    TireManagement=78
+}

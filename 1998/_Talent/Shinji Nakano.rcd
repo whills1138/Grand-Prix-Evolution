@@ -1,0 +1,23 @@
+Shinji Nakano
+{
+ //Driver Info
+ Nationality=Japanese
+ DateofBirth=1-4-71
+ Starts=33
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=9
+  Aggression=78.0
+  Reputation=99
+  Crash=1//96.0
+  Courtesy=90.0
+  Composure=83.0
+  Speed=66
+  StartSkill=85  //18.0
+  Recovery=45 //13.0
+  CompletedLaps=90.0
+  MinRacingSkill=90.0
+  TireManagement=70
+}

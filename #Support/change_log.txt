@@ -1,0 +1,349 @@
+GRAND PRIX EVOLUTION for Automobilista by Whills
+
+CHANGE LOG
+
+*************************2021-09-01*************************
+v2.2
+Graphics:
+- Fixed GP98 showroom shadow.
+- Added LCD light screen for GP98 and GP94 cars.
+
+Sounds:
+- Added inside road scraping sounds for GP98 and GP94 cars.
+
+*************************2021-03-01*************************
+v2.1
+
+Graphics:
+- Remastered all GP98 vehicle skins up to 2K resolution including driver helmet and cockpit textures.
+- New GP94 and GP98 vehicle skin format (DDS), loading speed improved.
+- Added a new alternative cockpit texture for GP98 cars, which is based on GP4.
+- Added visible damaging parts for all cars.
+- New RPM bar for GP91 cars.
+- New rain light for all cars.
+- New mirror mesh and texture for GP91 cars.
+- Adjusted GP94 car body shape and UV, model accuracy improved.
+- New mirror mesh for GP98 cars.
+- New mirror mesh for GP94 cars.
+- Added front spindles for GP98 cars.
+- Added spindles for GP94 cars.
+- Fixed GP98 body parts missing in the TV camera.
+- Fixed debris not working issue.
+- Rebuilt GP98 cockpit car body mesh.
+- Adjusted GP98 driver hands mesh and UV.
+- Added MFD starting animation.
+- Optimized all cars' GEN files.
+- Reset all cars' cockpit FOV to 45 (AMS standard).
+- Adjusted all cars' TV camera positions.
+- Adjusted GP98 alternative cockpit texture.
+- Optimized GP98 cockpit mesh and UV.
+- New suspension mesh for GP94 cars.
+- Added more debris for all cars; Slightly adjusted debris appearance.
+- Slightly adjusted GP94 and GP98 body specular map.
+- Slightly adjusted GP98 car body UV.
+- Added custom temp vehicle.
+- Many other improvements.
+
+Sounds:
+- New alternative engine sounds for GP98 cars.
+- New sound upgrade options.
+- Added "ListenerVol" to swingman cam.
+- New crowd ambient sounds.
+- New debris contact sound.
+- New scraping sounds.
+- Several new sound effects for GP91 cars.
+- Slightly adjusted some vehicles' sound levels.
+- Added several ambient sounds.
+
+Physics:
+- Improved AI behavior, reduced the chances of multi-vehicle collision at slow corners.
+- Slightly adjusted engine power-torque graph for all cars.
+- Adjusted GP91 engine rev limit to 13600 rpm. The ideal shifting rpm now is 13000.
+- Adjusted GP91 AI auto shifting behavior.
+- Fixed wrong GP98 downshift clutch time, handling improved.
+- Slightly adjusted all vehicles' spring, damper, and rebound rates. Adjusted damper and rebound setup based on original games. 
+- Added 'SpeedSensitivityMaxSpeed' to HDV for better controller support.
+- Slightly adjusted AI tire grip.
+- Adjusted all cars' engine inertia.
+- Adjusted AI strength usage.
+- Fixed the issue that AI being too aggressive at the high setting.
+- Adjusted vehicle damage sensibility, fixed incorrect force field sphere config.
+- Adjusted all cars' head physics.
+- Set all cars' default pit stop fuel amount to 35 to avoid unnecessary refueling during pit stops.
+- Slightly reduced slipstream effect for closer racing.
+- Adjusted all cars' inertia and CG height.
+- Slightly adjusted all cars' collision feelers.
+- Adjusted all cars' differential lock.
+- Adjusted all cars' baulk torque, clutch torque, and clutch inertia.
+- Other minor adjustments.
+
+Misc:
+- Disabled mid-race refueling for 1991 cars, since it was not allowed in 1991.
+- Corrected wrong vehicle description.
+- Fixed damage config file.
+- Optimized all drivers' talent files, re-edited aggression, speed, etc.
+- Optimized series directory config, loading speed improved.
+- Added descriptions for upgrade options.
+- Fixed an issue that may cause the game to crash when racing all classes of cars together.
+- Added Ayrton Senna vehicle option to 1994 season, players can add Senna's car by unzipping the file in 'GameData\Vehicles\Grand_Prix_Evo\1994\Teams\01_Williams'.
+- Remade menu icons.
+- Other minor fixes.
+
+*************************2021-01-20*************************
+v2.0
+
+Note: This update changes the file structure. Individual series are added by default.
+
+Graphics:
+- New GP91 car body mesh, McLaren and other teams now have different body meshes.
+- New 3D cockpit car body for GP94 cars. Original 2D style is available in upgrade options.
+- Smoothed GP98 tire mesh; Adjusted specular and bump maps.
+- New shader for GP94 car body.
+- New tire mesh for GP91 and GP94 cars, normal map added.
+- Adjusted GP94 body shape, scaled body size according to real 1994 cars.
+- Added driver body for GP98 car, new driver suit textures added.
+- Improved GP98 showroom preview, whole driver body and cockpit now visible.
+- Optimized GP98 external cockpit graphics.
+- Human player indicator added for all cars.
+- Optimized GP94 car front wing; Adjusted car body mesh and UV.
+- Adjusted GP98 car cockpit mesh and UV; Rebuilt cockpit car body mesh.
+- Slightly adjusted GP91 car front wing and suspension mesh.
+- Improved GP98 car LODs.
+- New cockpit mirror mesh for GP98 cars.
+- New gear font for all cars.
+
+Sounds:
+- New external sounds for all cars, with improved quality to avoid the sounds glitch in multiplayer mode. 
+- New contact and speed limiter sounds for GP98 cars.
+- New sound files structure, removed useless files.
+- Improved many sound effects.
+- Adjusted all car's external sound level.
+- Improved custom ambient sounds.
+- Sound upgrade option now only affects internal sounds.
+- Slightly adjusted GP98 engine sound.
+
+Physics:
+- Carefully adjusted all car's collision feelers; Optimized damage and contact physics.
+- New gear ratio setup for all cars based on original games.
+- Adjusted all car's suspension height and undertray value based on original games.
+- Corrected all car's camber value, handling improved. 
+- Corrected GP94 wheelbase value according to real 1994 cars.
+- Slightly reduced AI grip usage to increase stability.
+- Adjusted all car's head physics.
+- Corrected all cars' weight.
+- New engine power-torque graph for GP91 cars.
+- Other minor adjustments.
+
+Misc:
+- Added real team and driver names option for GP91 cars.
+- Added far chase camera as one of the onboard cameras for all cars.
+- New difficulty level upgrade options.
+- Adjusted GP94 driver aggression.
+- New swingman camera position.
+- Added suspension and driver face camera position for GP91 cars.
+- New file structure, which brings faster loading speed, better showroom preview, and more stability.
+- Split this addon into 3 individual series, the compilation series is dedicated to multiplayer mode.
+- Simplified GP98 upgrade options.
+- Shorter series file name.
+- Brand new user guide.
+- Many other fixes and adjustments.
+
+*************************2021-01-02*************************
+v1.1.1 fix
+
+Physics:
+- Fixed wrong undertray value, corrected suspension height.
+
+*************************2021-01-01*************************
+v1.1
+
+Graphics:
+1. Full 3D cockpit for GP91 and GP94 cars.
+2. Rebuilt GP94 and GP91 car tires mesh and adjusted textures.
+3. Adjusted GP91 car body and front and rear wing mesh.
+4. Ajuseted GP94 car body mesh, rebuilt front and rear wing to fix the graphical glitch.
+5. Adjusted GP98 tire specular map.
+6. Fixed GP94 font glitch.
+7. New and more accurate colliders for all cars.
+8. Added debris for all cars to improve car damage graphics.
+9. Adjusted GP91 and GP94 mirror mesh.
+10. Adjusted GP98 car cockpit hands mesh.
+11. Slightly adjusted some onboard camera positions.
+
+Physics:
+1. New head physics for all cars.
+
+Misc:
+1. Added 'Qualifying Ability' for AI talent files.
+2. Optimized all cars' .gen files.
+3. New vehicle damage config.
+4. Removed UI music (due to useless).
+5. Removed some useless upgrade options.
+6. Removed some unused files.
+7. Many other minor fixes.
+
+*************************2020-08-30*************************
+v1.0
+
+Graphics:
+1. Corrected showroom tire position.
+2. Adjusted GP98 MFD font size.
+3. Adjusted GP98 timer font size.
+4. Adjusted gear font background.
+
+Physics:
+1. Adjusted AI stability torque.
+
+Misc:
+1. Individual series for each class now available.
+2. Slightly adjusted menu icon.
+3. Fixed engine blow-out sound effects.
+4. Added missing ambient sounds.
+5. Optimized .gen files.
+6. Other minor fixes.
+
+*************************2020-08-26*************************
+v0.5
+
+Graphics:
+1. Rebuilt helmet mesh of GP91 car; Adjusted helmet mesh of GP94 car.
+2. Adjusted rear tire width of GP91 car.
+3. New cockpit texture for GP91 and GP98 car, assistance indicator bar added.
+4. Fixed low poly wheel texture glitch of GP91 car.
+5. Slightly adjusted GP98 car under shadow texture.
+6. New alternative cockpit texture for GP98 car (based on the GP3 2000 season addon).
+7. New alternative cockpit texture for GP94 car (based on VGA cockpit texture).
+
+Misc:
+1. Added "Tire Management" to driver talents files.
+2. New driver arms upgrade option for GP98 cars, which follows AMS standard.
+3. Replaced external mirror upgrade option with the alternative cockpit texture for GP98 car.
+
+*************************2020-08-16*************************
+v0.4
+
+Graphics:
+1. Added visual tire wear and dirt pick-up for GP98 car.
+2. Added bump map for GP98 tire.
+3. Slightly adjusted GP98 car mesh.
+4. Fixed car body shadow receiving glitch for GP94 and GP98 cars.
+
+Physics:
+1. Solved AI stability problem.
+2. New head physics for GP98 car.
+3. Added steering rotation setting to GP98 car.
+4. Adjusted tire grip for all cars to solve the understeer problem.
+
+Sounds:
+1. Adjusted ambient sound level for all cars.
+2. Fixed missing alternative sound effects for all cars.
+3. Re-edited GP91 engine sound.
+
+Misc:
+1. Adjusted some onboard camera positions.
+2. Adjusted driver aggression of GP98 class.
+3. Other minor fixes.
+
+*************************2020-08-11*************************
+V0.3
+
+Graphics:
+1. Optimized GP91 car mirror and wheel texture.
+2. Adjusted tire and t-cam texture for GP98 car.
+3. Adjusted specular and env map for GP98 car.
+4. Optimized LCD font for GP91 car.
+5. Added showroom reflection for all cars.
+6. Adjusted GP91 car body mesh; fixed GP91 body shader glitch.
+
+Sounds:
+1. Added some special sound effects for all cars.
+2. Adjusted shift sounds for GP91 car.
+3. Improved engine sounds for GP91 car.
+
+Physics: 
+1. Slightly adjusted tire grip for better handling and AI behavior.
+2. Slightly adjusted AI performance usage.
+
+Misc:
+1. Corrected some team information.
+2. Fixed the bug that the game may crash when head physics is enabled.
+3. Download link for templates added.
+4. Added cockpit display instruction to the user manual.
+5. Added menu vehicle icons.
+6. Other minor fixes.
+ 
+*************************2020-08-07*************************
+v0.21 fix
+
+Graphics:
+1. New GP94 helmet textures, which save lots of space and improved loading speed.
+2. Adjusted GP91 cockpit texture.
+3. Made complete car templates for users to download.
+
+Physics:
+1. Improved car handling and AI behavior of GP91 and GP94 cars.
+2. Fixed AI slow starting problem.
+
+Sounds:
+1. Fixed downshifting audio glitch.
+2. Adjusted effect sound level.
+
+*************************2020-08-06*************************
+v0.2
+
+Graphics:
+1. Adjusted cockpit mesh of GP98 car, making it look closer to the original game.
+2. Classic car shape of GP98 car is back! You can also choose the alternative car shape in upgrade options.
+3. Fixed some texture and car skins for GP98 car.
+4. Upscaled GP94 car skin for a sharper look.
+5. New steering wheel display config for GP98 car.
+6. Added external mirror visibility to upgrade options.  
+7. Optimized LCD fonts.
+8. Remastered cockpit texture for GP91 car, original texture is available in upgrade options.
+9. New shadow texture for all cars.
+10. New shader config for GP94 and GP91 cars, which brings for realistic cockpit graphics.
+11. Other minor improvements.
+
+Sounds:
+1. Re-recorded and remixed all car sounds for higher quality.
+2. Fixed upshift audio glitch.
+3. New contact sounds for GP91 car.
+4. Adjusted all cars' sound levels.
+5. New ambient sounds.
+
+Physics:
+1. Corrected camber value for all cars.
+2. Adjusted AI performance.
+3. Other minor adjustments.
+
+Misc:
+1. New pace car skin and graphics config.
+2. New menu icon.
+3. Adjusted some camera positions.
+4. Corrected steering lock angle for GP98 car.
+5. Edited team information.
+6. Re-edited driver talents.
+7. Other minor fixes.
+
+*************************2020-08-02*************************
+v0.1 Beta
+
+Original Grand Prix Evolution addon is made for rFactor, now available for Automobilista.
+
+Improvements for AMS:
+1. New GP98 steering wheel, which now displays oil temp, water temp, and lap time.
+2. Fixed missing vehicle sounds, replaced some samples for better sounding.
+3. Fixed some car skin problems.
+4. New backfire animation.
+5. New alternative sounds for GP91 and GP94.
+6. Fixed cockpit display glitch, adjusted fonts.
+7. Recalibrated driver talents for AMS.
+8. New Pace Car skin.
+9. Optimized file structure for AMS, deleted unused files.
+10. Many other fixes and improvements. 
+
+Known issues:
+1. Sounds still need to be improved.
+2. Driver talents need to be re-edited.
+3. Minor AI stability issue.
+4. Some material shader needs to be adjusted. 

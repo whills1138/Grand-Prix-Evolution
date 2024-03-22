@@ -1,0 +1,22 @@
+Bertrand Gachot
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=27-07-1964
+  Starts=109
+  Poles=0
+  Wins=0
+  //QualifyingAbility=15.0
+
+  Aggression=73
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=85.75
+  Speed=66
+  Reputation=99
+  Crash=1//81
+  Composure=86
+  CompletedLaps=90
+  TireManagement=71
+}

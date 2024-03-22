@@ -1,0 +1,23 @@
+Christian Fittipaldi
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=18-1-71
+ Starts=43
+ Poles=0
+ Wins=0
+ //QualifyingAbility=7.5
+ 
+
+  Aggression=77
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=94
+  Speed=87
+  Reputation=99
+  Crash=1//92
+  Composure=91
+  CompletedLaps=96
+  TireManagement=78
+}

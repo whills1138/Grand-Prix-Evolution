@@ -1,0 +1,23 @@
+Michele Alboreto
+{
+ //Driver Info
+ Nationality=Italien
+ DateofBirth=28-9-68
+ Starts=78
+ Poles=1
+ Wins=0
+ //QualifyingAbility=12.5
+ 
+
+  Aggression=70
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=88
+  Speed=76
+  Reputation=99
+  Crash=1//84
+  Composure=87
+  CompletedLaps=92
+  TireManagement=70
+}

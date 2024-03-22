@@ -1,0 +1,22 @@
+Jean-Marc Gounon
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=01-01-1963
+  Starts=109
+  Poles=0
+  Wins=0
+  //QualifyingAbility=14.5
+
+  Aggression=73
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=86.5
+  Speed=72
+  Reputation=99
+  Crash=1//82
+  Composure=86
+  CompletedLaps=91
+  TireManagement=70
+}

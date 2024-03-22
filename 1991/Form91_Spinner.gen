@@ -1,0 +1,87 @@
+//GP91 Graphics file edited by Whills (c)All Rights Reserved
+
+SearchPath=<VEHDIR>\Grand_Prix_Evo
+SearchPath=<VEHDIR>\
+
+MASFile=1991\Form91.mas
+MASFile=Shared\GP_maps.mas
+
+ReflectPlane=(0.0, -1.0, -0.0, 0.00)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=GC_body_<2>.gmt    CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(Dynamic, Solid, 512, 512, fis_undershadow.dds) Reflect=True
+
+  Actor=VEHICLE
+
+ Instance=Helmet
+  {
+    Moveable=True
+    MeshFile=GC_helmet_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=Fwing
+  {
+    Moveable=True
+    MeshFile=GC_Fwing.gmt    CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 64, 64) Reflect=True
+  }
+
+  Instance=Rwing
+  {
+    Moveable=True
+    MeshFile=GC_Rwing.gmt    CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 64, 64) Reflect=True
+  }
+  
+  Instance=DEBRIS5
+  {
+    Moveable=True
+    MeshFile=GC_susp_lf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=DEBRIS6
+  {
+    Moveable=True
+    MeshFile=GC_susp_rf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=SUSP_LR
+  {
+    Moveable=True
+    MeshFile=GC_susp_lr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=SUSP_RR
+  {
+    Moveable=True
+    MeshFile=GC_susp_rr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=LFT
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_LF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0) Reflect=True
+  }
+
+
+  Instance=RFT
+  {
+   Moveable=True
+   MeshFile=GC_TIRE_RF.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0) Reflect=True
+  }
+
+
+  Instance=LRT
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_LR.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0) Reflect=True
+  }
+
+
+  Instance=RRT
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_RR.gmt CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0) Reflect=True
+  }
+
+}

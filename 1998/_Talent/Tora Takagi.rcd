@@ -1,0 +1,23 @@
+Tora Takagi
+{
+ //Driver Info
+ Nationality=Japanese
+ DateofBirth=12-2-74
+ Starts=16
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=10.5
+  Aggression=70.0
+  Reputation=99
+  Crash=1//60.0
+  Courtesy=90.0
+  Composure=82.0
+  Speed=63
+  StartSkill=85  //15.0
+  Recovery=45 //8.5
+  CompletedLaps=91.0
+  MinRacingSkill=84.0
+  TireManagement=70
+}

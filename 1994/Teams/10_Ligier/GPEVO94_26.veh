@@ -1,0 +1,38 @@
+
+DefaultLivery="GPE94_26.tga"
+
+
+HDVehicle=Form94.hdv
+Graphics=Form94.gen
+Spinner=Form94_Spinner.gen
+Upgrades=Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselDB                        // Used to generate GMT names in *.gen file
+Cameras=Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=Form94_Sounds.sfx
+HeadPhysics=Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+
+
+Number=26
+FullTeamName="GP94 10 Ligier"
+PitGroup="Group10"
+Driver="Olivier Panis"
+Description="GPE94: 26 Olivier Panis"
+Engine="Renault"
+Manufacturer="Ligier - Renault"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Evo_1994"
+
+Team="Ligier"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1994"
+Category="Grand Prix Evo 1994"

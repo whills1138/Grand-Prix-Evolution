@@ -1,0 +1,179 @@
+//GP91 Graphics file edited by Whills (c)All Rights Reserved
+
+SearchPath=<VEHDIR>\Grand_Prix_Evo
+SearchPath=<VEHDIR>\
+
+MASFile=1991\Form91.mas
+MASFile=Shared\GP_maps.mas
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=GC_BODY_<2>.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(600.0) ShadowReceiver=True
+  //MeshFile=GC_BUTTOM<1>.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0)  //easter egg.... a picture at the bottom of the car. texture is 00.bmp in gp_maps.mas.
+  
+  MeshFile=GC_BODY_N.gmt    Render=False CollTarget=False HATTarget=False ShadowObject=(True, Solid, 256, 256, 91_undershadow.dds) LODIn=(0.0) LODOut=(500.0)
+  MeshFile=91_col.gmt       Render=False CollTarget=True  HATTarget=False LODIn=(0.0) LODOut=(100.0)   
+
+  Actor=VEHICLE
+  
+  <STARTUPGRADES>
+
+  Instance=COCKPIT
+  {
+    Moveable=True
+    MeshFile=GC_mirror.gmt        CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+	MeshFile=gc_cock_body.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+    MeshFile=GC_COCK_MASK.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+    MeshFile=GC_COCK_UNDER.gmt    CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+    MeshFile=GC_COCK_BASE_NEW.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+    MeshFile=GC_lcd.gmt           CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+	MeshFile=GC_RPMBAR.gmt        CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=True
+	MeshFile=<GC_LCDI>            CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=False
+	<GC_LCDP>MeshFile=GC_PLAYER_LCD.GMT  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0) ShadowReceiver=False
+  }
+  
+  Instance=Helmet
+  {
+    Moveable=True
+    MeshFile=GC_helmet_<1>.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=Fwing
+  {
+    Moveable=True
+    MeshFile=GC_Fwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(600.0) ShadowReceiver=True
+  }
+
+  Instance=Rwing
+  {
+    Moveable=True
+    MeshFile=GC_Rwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(600.0) ShadowReceiver=True
+  }
+  
+  <STOPUPGRADES>
+
+  Instance=DEBRIS5
+  {
+    Moveable=True
+    MeshFile=GC_susp_lf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+  }
+  
+  Instance=DEBRIS6
+  {
+    Moveable=True
+    MeshFile=GC_susp_rf.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+  }
+  
+  Instance=SUSP_LR
+  {
+    Moveable=True
+    MeshFile=GC_susp_lr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+  }
+  
+  Instance=SUSP_RR
+  {
+    Moveable=True
+    MeshFile=GC_susp_rr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_LF.gmt   CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_RF.gmt   CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_LR.gmt   CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True 
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=GC_TIRE_RR.gmt   CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+  
+  //////////////////////////Misc///////////////////////////////
+  
+  Instance=RAINLIGHT
+  {
+    Moveable=True
+	MeshFile=91_LIGHT.GMT    CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(200.0) ShadowReceiver=False
+  }
+  
+  Instance=body_damage
+  {
+    Moveable=True
+	MeshFile=91_body_damage.GMT    CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(50.0) ShadowReceiver=False
+  }
+  
+  ////////////////////////Small Debris/////////////////////////
+  
+  Instance=DEBRIS0
+  {
+    Moveable=True
+    MeshFile=debries_1.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS1
+  {
+    Moveable=True
+    MeshFile=debries_2.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS2
+  {
+    Moveable=True
+    MeshFile=debries_3.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS3
+  {
+    Moveable=True
+    MeshFile=debries_4.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS4
+  {
+    Moveable=True
+    MeshFile=debries_5.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS9
+  {
+    Moveable=True
+    MeshFile=debries91_1.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS10
+  {
+    Moveable=True
+    MeshFile=debries91_2.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS11
+  {
+    Moveable=True
+    MeshFile=debries91_3.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+  
+  Instance=DEBRIS7
+  {
+    Moveable=True
+    MeshFile=debries91_4.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+
+  Instance=DEBRIS8
+  {
+    Moveable=True
+    MeshFile=debries91_5.GMT CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) //Render=False
+  }
+}

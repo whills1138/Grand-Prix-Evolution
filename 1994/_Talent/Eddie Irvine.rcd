@@ -1,0 +1,23 @@
+Eddie Irvine
+{
+ //Driver Info
+ Nationality=Ireland
+ DateofBirth=10-11-65
+ Starts=97
+ Poles=0
+ Wins=0
+ //QualifyingAbility=8.0
+ 
+
+  Aggression=79
+  StartSkill=87  //2.0
+  Courtesy=80
+  Recovery=45
+  MinRacingSkill=93.25
+  Speed=86
+  Reputation=99
+  Crash=1//91
+  Composure=90
+  CompletedLaps=95
+  TireManagement=75
+}

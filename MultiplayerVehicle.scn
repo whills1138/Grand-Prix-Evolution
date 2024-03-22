@@ -1,0 +1,51 @@
+//Temp Vehicle Graphics file edited by Whills (c)All Rights Reserved
+
+SearchPath=GameData\Vehicles\Grand_Prix_Evo
+
+MASFile=Multicar.mas
+
+Instance=TEMPNETVEH
+{
+  Moveable=True
+  MeshFile=gp_temp_car.gmt CollTarget=True HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowReceiver=True ShadowCaster=(True, Solid, 128, 128, TEMP_UNDER.dds)
+
+  Actor=VEHICLE
+
+  Instance=cockpit
+  {
+    Moveable=True
+    MeshFile=temp_cockpit.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(0.0) RENDER=FALSE//fake mirror
+	MeshFile=temp_ICON.gmt    CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(5.0)
+  }
+  
+  Instance=ICON
+  {
+    Moveable=True
+    MeshFile=temp_ICON.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(50.0) ShadowReceiver=False
+  }
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=tr_lf.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(300.00) ShadowReceiver=True ShadowCaster=(True, Solid, 64, 64)
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=tr_rf.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(300.00) ShadowReceiver=True ShadowCaster=(True, Solid, 64, 64)
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=tr_lr.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(300.00) ShadowReceiver=True ShadowCaster=(True, Solid, 64, 64)
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=tr_rr.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(300.00) ShadowReceiver=True ShadowCaster=(True, Solid, 64, 64)
+  }
+}
+

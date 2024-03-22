@@ -1,0 +1,16 @@
+AI
+{
+
+// Driver stats
+    Aggression=80
+    Reputation=99
+    Courtesy=80
+    Composure=80
+    Speed=90
+    Crash=1
+    Recovery=50
+    TireManagement=75
+    StartSkill=75	
+    CompletedLaps=95
+    MinRacingSkill=95
+}

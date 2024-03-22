@@ -1,0 +1,39 @@
+
+DefaultLivery="GPE9801.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=GN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+
+
+Number=01
+FullTeamName="GP98 01 Williams"
+PitGroup="Group1"
+Description="GPE98: 01 John Newhouse"
+Driver="John Newhouse"
+Engine="Mecachrome"
+Manufacturer="Williams - Mecachrome"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+Classes="Grand_Prix_Evo_1998"
+
+Team="Williams"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1998"
+Category="Grand Prix Evo 1998"

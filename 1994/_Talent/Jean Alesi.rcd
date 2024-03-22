@@ -1,0 +1,23 @@
+Jean Alesi
+{
+ //Driver Info
+ Nationality=France
+ DateofBirth=28-9-71
+ Starts=42
+ Poles=0
+ Wins=0
+ //QualifyingAbility=2.5
+ 
+
+  Aggression=78
+  StartSkill=87  //2.0
+  Courtesy=80
+  Recovery=45
+  MinRacingSkill=97.75
+  Speed=96
+  Reputation=99
+  Crash=1//97
+  Composure=94
+  CompletedLaps=98
+  TireManagement=80
+}

@@ -1,0 +1,23 @@
+Pierluigi Martini
+{
+ //Driver Info
+ Nationality=Italien
+ DateofBirth=28-9-71
+ Starts=42
+ Poles=0
+ Wins=0
+ //QualifyingAbility=15.5
+ 
+
+  Aggression=74
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=90.25
+  Speed=80
+  Reputation=99
+  Crash=1//87
+  Composure=86
+  CompletedLaps=91
+  TireManagement=70
+}

@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX95_02.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=1994\Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehWH                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+
+
+Number=02
+FullTeamName="GPEX1995 01 Benetton"
+PitGroup="Group1"
+Driver="Johnny Herbert"
+Description="GPE95: 02 Johnny Herbert"
+Engine="Renault"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1995"
+
+Manufacturer="Benetton - Renault"
+Transmission="6-speed semi-auto"
+Team="Benetton"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 1995"
+
+
+Category="Grand Prix Evo Extra,1995 Season"

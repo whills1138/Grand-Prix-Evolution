@@ -1,0 +1,341 @@
+
+//Chevrolet Camaro SS engine sounds and effects
+
+
+// ENGINE SOUNDS (INSIDE)
+
+
+
+VS_INSIDE_POWER_ENGINE_1=1.00, Camaro_SS\c_on_idle.wav 
+VS_INSIDE_POWER_ENGINE_2=1.00, Camaro_SS\c_on_low.wav
+VS_INSIDE_POWER_ENGINE_3=1.00, Camaro_SS\c_on_mid.wav
+VS_INSIDE_POWER_ENGINE_4=1.00, Camaro_SS\c_on_high.wav
+VS_INSIDE_POWER_ENGINE_5=1.00, Camaro_SS\c_in_limiter.wav
+
+
+
+
+VS_INSIDE_COAST_ENGINE_1=1.00, Camaro_SS\ss_idle.wav 
+VS_INSIDE_COAST_ENGINE_2=1.00, Camaro_SS\c_off_low.wav
+VS_INSIDE_COAST_ENGINE_3=1.00, Camaro_SS\c_off_mid.wav 
+VS_INSIDE_COAST_ENGINE_4=1.00, Camaro_SS\c_off_max.wav 
+
+// ENGINE REV-SAMPLE MIX
+//power 
+
+EngRPMPowerInside=(0,     10.00,   2400.00,  1721.00)
+EngRPMPowerInside=(1,   1000.00,   3700.00,  3080.00)
+EngRPMPowerInside=(2,   2700.00,   5800.00,  4000.00) 
+EngRPMPowerInside=(3,   4500.00,   6585.00,  5050.00)
+EngRPMPowerInside=(4,   6505.00,   9999.00,  5050.00)
+
+//EngRPMPowerInside=(4,   6000.00,   9999.00,  5250.00) 
+
+//coast 
+EngRPMCoastInside=(0,     10.00,   1800.00,  1110.00) 
+EngRPMCoastInside=(1,   1000.00,   3500.00,  2990.00)
+EngRPMCoastInside=(2,   2700.00,   5900.00,  4100.00) 
+EngRPMCoastInside=(3,   5200.00,   9999.00,  5750.00) 
+
+
+
+
+VS_INSIDE_ENGINE_STARTER=0.4, Camaro_SS\ss_starter.wav
+VS_INSIDE_ENGINE_STARTING=0.4, Camaro_SS\ss_starting.wav
+
+
+VS_OUTSIDE_POWER_ENGINE_1=1.40, Camaro_SS\ex_c_on_idle.wav  
+VS_OUTSIDE_POWER_ENGINE_2=1.50, Camaro_SS\ex_on_low.wav
+VS_OUTSIDE_POWER_ENGINE_3=1.90, Camaro_SS\ex_on_mid.wav
+VS_OUTSIDE_POWER_ENGINE_4=2.00, Camaro_SS\ex_on_max.wav
+
+// OUTSIDE on-throttle
+VS_OUTSIDE_COAST_ENGINE_1=1.20, Camaro_SS\ex_ss_idle.wav
+VS_OUTSIDE_COAST_ENGINE_2=1.40, Camaro_SS\ex_off_low.wav
+VS_OUTSIDE_COAST_ENGINE_3=1.30, Camaro_SS\ex_off_mid.wav
+VS_OUTSIDE_COAST_ENGINE_4=1.45, Camaro_SS\ex_off_high.wav
+
+
+
+// ENGINE REV-SAMPLE MIX
+//power 
+
+
+EngRPMPowerOutside=(0,     10.00,   2500.00,  1721.00)
+EngRPMPowerOutside=(1,   1000.00,   3700.00,  4997.00)
+EngRPMPowerOutside=(2,   2700.00,   7000.00,  4997.00)
+EngRPMPowerOutside=(3,   4500.00,   9999.00,  4997.00) 
+
+
+//coast 
+EngRPMCoastOutside=(0,     10.00,   1800.00,  1110.00)
+EngRPMCoastOutside=(1,   1000.00,   2500.00,  4997.00)
+EngRPMCoastOutside=(2,   2000.00,   4900.00,  4997.00)
+EngRPMCoastOutside=(3,   4000.00,   9999.00,  4997.00)
+
+
+
+VS_OUTSIDE_ENGINE_STARTER=0.5, Camaro_SS\ex_ss_starter.wav
+VS_OUTSIDE_ENGINE_STARTING=0.5, Camaro_SS\ex_ss_starting.wav
+
+
+
+// BACKFIRE & SHIFT SOUNDS (INSIDE)
+
+VS_INSIDE_SHIFT_UP_1=1.00,Camaro_SS\camaro_upshift.wav
+VS_INSIDE_SHIFT_UP_2=1.00,Camaro_SS\camaro_upshift.wav
+VS_INSIDE_SHIFT_UP_3=1.00,Camaro_SS\camaro_upshift.wav
+VS_INSIDE_SHIFT_DOWN_1=1.00,Camaro_SS\camaro_downshift.wav
+VS_INSIDE_SHIFT_DOWN_2=1.00,Camaro_SS\camaro_downshift.wav
+VS_INSIDE_SHIFT_DOWN_3=1.00,Camaro_SS\camaro_downshift.wav
+
+VS_INSIDE_BACKFIRE_1=0.28, Camaro_SS\ss_backfire_4.wav
+VS_INSIDE_BACKFIRE_2=0.48, Camaro_SS\ss_backfire_5.wav
+VS_INSIDE_BACKFIRE_3=0.58, Camaro_SS\ss_backfire_6.wav
+
+
+
+
+
+// BACKFIRE & SHIFT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SHIFT_UP_1=1.1,Camaro_SS\ex_upshift_1.wav
+VS_OUTSIDE_SHIFT_UP_2=1.1,Camaro_SS\ex_upshift_2.wav
+VS_OUTSIDE_SHIFT_UP_3=1.1,Camaro_SS\ex_upshift_3.wav
+VS_OUTSIDE_SHIFT_DOWN_1=1.1,Camaro_SS\ex_downshift.wav
+VS_OUTSIDE_SHIFT_DOWN_2=1.1,Camaro_SS\ex_downshift.wav
+VS_OUTSIDE_SHIFT_DOWN_3=1.1,Camaro_SS\ex_downshift.wav
+
+VS_OUTSIDE_BACKFIRE_1=0.68, Camaro_SS\ex_ss_backfire_3.wav
+VS_OUTSIDE_BACKFIRE_2=0.68, Camaro_SS\ex_ss_backfire_3.wav
+VS_OUTSIDE_BACKFIRE_3=0.68, Camaro_SS\ex_ss_backfire_3.wav
+
+
+
+
+VS_INSIDE_BRAKES_LOW=brakes_low.wav
+VS_INSIDE_BRAKES_HIGH=brakes_high.wav
+
+VS_OUTSIDE_BRAKES_LOW=brakes_ext_low.wav
+VS_OUTSIDE_BRAKES_HIGH=brakes_ext_high.wav
+
+BrakeRampSpeed=12
+BrakeBlendSpeeds=(16, 24)
+BrakeFadeSpeeds=(24, 28)
+BrakePressure=1.0
+
+// ROAD SURFACE SOUNDS  (INSIDE)
+VS_INSIDE_ROADNOISE_DRY=1.0,	TireSurface\new_effects\roadnoise_37_in.wav// roadnoise_32_in_closed.wav
+VS_INSIDE_ROADNOISE_GRASS=1.0, 	TireSurface\new_effects\dirt_roll_closed_roadcar.wav //grass_roll.wav
+VS_INSIDE_ROADNOISE_DIRT=1.0, 	TireSurface\new_effects\dirt_roll_closed_roadcar.wav
+VS_INSIDE_ROADNOISE_GRAVEL=1.0, TireSurface\new_effects\dirt_roll_closed_roadcar.wav //gravel_roll_closed_cockpit.wav
+
+
+// ROAD SURFACE SOUNDS  (OUTSIDE)
+VS_OUTSIDE_ROADNOISE_DRY=1.30,	TireSurface\new_effects\ex_road.wav
+VS_OUTSIDE_ROADNOISE_GRASS=0.8,	TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_DIRT=0.8,	TireSurface\new_effects\dirt_roll_ex.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=0.8,TireSurface\new_effects\dirt_roll_ex.wav
+
+// RUMBLESTRIP SOUNDS (INSIDE)
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=1.3, 			TireSurface\rumble_closed_roadcar2.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPGROOVED=1.1, 	TireSurface\new_effects\rumblestrip_grooved_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPFLAT=0.75, 		TireSurface\new_effects\rumblestrip_flat_general.wav //rumblestrip_flat_closed.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIPCRETE=1.0, 		TireSurface\new_effects\rumblestrip_grasscrete_closed.wav
+
+// RUMBLESTRIP SOUNDS (OUTSIDE)
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=1.0,			TireSurface\new_effects\ex_curb.wav//TireSurface\new_effects\rumblestrip_external_4.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPGROOVED=1.0, 	TireSurface\new_effects\rumblestrip_grooved_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPFLAT=1.0, 		TireSurface\new_effects\rumblestrip_flat_ex.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIPCRETE=0.8, 		TireSurface\new_effects\rumblestrip_grasscrete_ex.wav
+
+
+// NEW EFFECTS (INSIDE)
+
+VS_INSIDE_BLOWOUT=10.0, 		TireSurface\engine_blow_3.wav
+VS_INSIDE_DIRT_RESIDUE=1.5, 	TireSurface\new_effects\dirt_residue_closed_roadcar.wav //dirt_residue_13_closed.wav //dirt_residue_6.wav
+VS_INSIDE_SCRAPING_ROAD=1.0, 	TireSurface\new_effects\scrape_road_911_2_metal.wav 
+VS_INSIDE_BUMPSTOP=0.8,			TireSurface\new_effects\scrape_tire.wav
+
+//suspension_rattle_6.wav //chassis_stress_rattle.wav //bumpstop_rattle_closed.wav //suspension_rattle_4.wav //1000.wav //suspension_rattle_4.wav
+
+// NEW EFFECTS (OUTSIDE)
+
+VS_OUTSIDE_BLOWOUT=1.0,			TireSurface\ex_engine_blow_2.wav
+VS_OUTSIDE_DIRT_RESIDUE=0.0,	TireSurface\new_effects\dirt_residue_ex.wav
+VS_OUTSIDE_SCRAPING_ROAD=1.0,	TireSurface\new_effects\suspension_ex.wav
+//VS_OUTSIDE_BUMPSTOP=1.0,		TireSurface\new_effects\
+
+
+
+// SKID SOUNDS (INSIDE)
+VS_INSIDE_TIRE_SCRUB=1.1,	TireSurface\camaro_scrub.wav
+VS_INSIDE_SKID_DRY=1.5,		TireSurface\camaro_skid.wav
+VS_INSIDE_SKID_GRASS=1.0, 	TireSurface\grass_trap_closed_cockpit.wav
+VS_INSIDE_SKID_DIRT=1.0, 	TireSurface\gravel_trap_closed_cockpit_roadcar.wav
+VS_INSIDE_SKID_GRAVEL=1.0, 	TireSurface\gravel_trap_closed_cockpit.wav
+
+
+// AMBIENT SOUNDS (OUTSIDE)
+
+VS_OUTSIDE_SPEED_LIMITER_TOGGLE=limitertoggle_ext.wav
+VS_OUTSIDE_TRACTION_CONTROL=0.05,Camaro_SS\ex_limiter.wav
+VS_OUTSIDE_ON_FIRE=on_fire_ext.wav
+
+// AMBIENT SOUNDS (INSIDE)
+
+VS_INSIDE_SPEED_LIMITER_TOGGLE=limitertoggle_int.wav
+
+VS_INSIDE_TRACTION_CONTROL=   //2.5,Camaro_SS\limiter_4_5.wav
+VS_INSIDE_ON_FIRE=on_fire_int.wav
+
+
+
+// SKID SOUNDS (OUTSIDE)
+VS_OUTSIDE_TIRE_SCRUB=1.3,	TireSurface\road_tire_scrub_ex.wav //Camaro_SS\tire_scrub_ex.wav
+VS_OUTSIDE_SKID_DRY=1.1,	TireSurface\road_tire_skid_ex.wav //Camaro_SS\tire_skid_ex.wav
+VS_OUTSIDE_SKID_GRASS=2.5,	TireSurface\ex_grass_trap.wav
+VS_OUTSIDE_SKID_DIRT=2.5,	TireSurface\ex_dirt_trap.wav
+VS_OUTSIDE_SKID_GRAVEL=2.5,	TireSurface\ex_gravel_trap.wav
+
+// CONTACT SOUNDS  (INSIDE)
+
+VS_INSIDE_SCRAPING=1.0, TireSurface\scrape.wav
+
+VS_INSIDE_HIT_WALL_1=0.6,	CRASH\impact_wall_tap.wav
+VS_INSIDE_HIT_WALL_2=0.6,	CRASH\impact_wall_verylight2.wav
+VS_INSIDE_HIT_WALL_3=0.6,	CRASH\impact_wall_verylight.wav
+VS_INSIDE_HIT_WALL_4=0.6,	CRASH\impact_wall_medium2.wav
+VS_INSIDE_HIT_WALL_5=0.6,	CRASH\impact_wall_heavy3.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=0.6,	CRASH\impact_car_tap.wav
+VS_INSIDE_HIT_OTHERCAR_2=0.6,	CRASH\impact_car_verylight.wav
+VS_INSIDE_HIT_OTHERCAR_3=0.6,	CRASH\impact_car_light.wav
+VS_INSIDE_HIT_OTHERCAR_4=0.6,	CRASH\impact_car_medium.wav
+VS_INSIDE_HIT_OTHERCAR_5=0.6,	CRASH\impact_car_heavy.wav
+
+VS_INSIDE_HIT_CONE=0.6,	CRASH\cone_hit.wav
+
+
+// CONTACT SOUNDS  (OUTSIDE)
+
+VS_OUTSIDE_SCRAPING=TireSurface\ex_scrape.wav
+
+VS_OUTSIDE_HIT_WALL_1=CRASH\ex_impact_wall_tap.wav
+VS_OUTSIDE_HIT_WALL_2=CRASH\ex_impact_wall_verylight2.wav
+VS_OUTSIDE_HIT_WALL_3=CRASH\ex_impact_wall_light.wav
+VS_OUTSIDE_HIT_WALL_4=CRASH\ex_impact_wall_medium2.wav
+VS_OUTSIDE_HIT_WALL_5=CRASH\ex_impact_wall_heavy3.wav
+
+VS_OUTSIDE_HIT_OTHERCAR_1=CRASH\ex_impact_car_tap.wav
+VS_OUTSIDE_HIT_OTHERCAR_2=CRASH\ex_impact_car_verylight.wav
+VS_OUTSIDE_HIT_OTHERCAR_3=CRASH\ex_impact_car_light.wav
+VS_OUTSIDE_HIT_OTHERCAR_4=CRASH\ex_impact_car_medium.wav
+VS_OUTSIDE_HIT_OTHERCAR_5=CRASH\ex_impact_car_heavy.wav
+
+VS_OUTSIDE_HIT_CONE=CRASH\ex_cone_hit2.wav
+
+
+//Misc effects
+VS_INSIDE_MIRROR=0.31, Secondary\mirror.wav
+
+
+
+// ENGINE VOLUME MIX
+
+playerEngineVolumeMinimum=0.3
+playerEngineVolumeThrottleFraction=0.3
+playerEngineVolumeRevFraction=0.4
+//NonLinearPanMultiplier=1.5
+EngineVolumeRampLinearity=1.0
+EngineCrossFadeLinearity=0.85
+
+non-playerEngineVolumeMinimum=0.2
+non-playerEngineVolumeThrottleFraction=0.1
+non-playerEngineVolumeRevFraction=0.1
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.2,0.6)   // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+EngineLoadBlendOutside=(0.05,0.9)  // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+
+// TRANNY-SAMPLE MIX
+
+
+
+
+
+VS_INSIDE_WIND_NOISE=2.0, TireSurface\new_effects\wind_int_5_closed.wav
+VS_INSIDE_WIND_HEAVY=2.0, TireSurface\new_effects\wind_heavy.wav
+
+VS_OUTSIDE_WIND_NOISE=1.7,	TireSurface\new_effects\wind_ex_2.wav
+VS_OUTSIDE_WIND_HEAVY=1.7, TireSurface\new_effects\wind_ex_heavy_3.wav
+
+
+//Global mix volume multipliers
+EngineMixMultiplier=1.0
+GearboxMixMultiplier=1.0
+SurfaceEffectsMultiplier=1.0
+ShiftSoundMultiplier=1.0
+BackfireMultiplier=1.0
+WindHeavyFrequencyDivisor=93.0
+WindHeavySpeedEndFade=140.0
+SurfaceEffectsOffsetMultiplier=(1.7, 1.45) //Live Play Offset Mult,  Replay Offset Mult 
+
+ScrubTireVolMultiplier=0.00008
+ScrubTireFreqGrip=-0.6000
+ScrubTireFreqSpeed=0.00391
+ScrubTireStartGripFract=0.71 
+ScrubTirePeakGripFract=0.45 
+ScrubTireStopGripFract=0.1 
+		  
+SkidTireVolMultiplier=0.0001
+SkidTireFreqGrip=-0.25000
+SkidTireFreqSpeed=0.00625
+SkidTireStartGripFract=0.31
+
+RoadNoiseVolSpeed=32.00000
+RoadNoiseVolMult=0.0001
+RoadNoiseFreqMin=0.80000
+RoadNoiseFreqMult=0.00391
+
+//Sound effects controls
+OcclusionLevel=(0.6, 0.8) //(default occlusion level when inside cockpit, occlusion multiplier for sounds in distance)
+
+
+// ATTENUTATION
+EngineRange=70.0
+EngineShape=0.85
+EngineAmbient=3.00
+
+ShiftRange=60.0
+ShiftShape=0.85
+ShiftAmbient=3.00
+
+OtherRange=55.0
+OtherShape=0.9
+OtherAmbient=1.0
+
+SurfaceRange=70.0
+SurfaceShape=0.9
+SurfaceAmbient=0.5
+
+
+
+DrivetrainLowPassDamping=0.25 //the strenght of low pass filter applied to drivertrain sounds (engine, gearbox, shift...)
+SurfaceLowPassDamping=1.0
+WindLowPassDamping=0.5
+EnviromentalLowPassDamping=1.0
+
+DriveTrainLowPassMinRange=30.0
+DriveTrainLowPassMaxRange=80.0
+
+OtherLowPassMinRange=1.0
+OtherLowPassMaxRange=20.0
+
+LowPassRoadSpeedMult=2.0
+LowPassEngineSpeedMult=0.25
+LowPassWindSpeedMult=-2.0
+LowPassOtherSpeedMult=0.0
+
+ResampleFilter=1

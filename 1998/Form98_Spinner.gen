@@ -1,0 +1,132 @@
+//GP98 Graphics file edited by Whills (c)All Rights Reserved
+
+SearchPath=<VEHDIR>\Grand_Prix_Evo
+SearchPath=<VEHDIR>\
+
+<EXTRA_MAS>
+MASFile=1998\Form98.mas
+MASFile=Shared\GP_maps.mas
+
+
+ReflectPlane=(0.0, -1.0, -0.0, 0.00)
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  <TIRET>                     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(0.0)    RENDER=FALSE
+  MeshFile=98_body.gmt        CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowObject=(Dynamic, Solid, 512, 512, 98_undershadow_sh.dds)
+  MeshFile=98_cockpit_s.gmt   CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=98_cockpit_med.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=98_cockpit_win.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=98_driver.gmt      CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=98_hands_s.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  MeshFile=98_SIDE_L.gmt      CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True ShadowCaster=(Dynamic, Solid, 128, 128)
+  MeshFile=98_SIDE_R.gmt      CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True ShadowCaster=(Dynamic, Solid, 128, 128)
+ 
+  Actor=VEHICLE
+  
+  <STARTUPGRADES>
+
+  Instance=CARBODY<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<CARBODY> CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=Helmet
+  {
+    Moveable=True
+    MeshFile=98_helmet.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0)  Reflect=True
+  }
+  
+  Instance=WHEEL
+  {
+    Moveable=True
+    MeshFile=98_SWHEEL_low.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0)  Reflect=True
+	MeshFile=98_wheel_mask.gmt  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0)  Reflect=True
+  }
+  
+  Instance=Mirrors
+  {
+     Moveable=True
+     MeshFile=98_MIRROR.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+	
+  Instance=TCAM_SH<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<TCAM_SH>  CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) Reflect=True
+  }
+
+  Instance=Fwing<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<FWING>   CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(1000.0) ShadowCaster=(True, Solid, 128, 128)  Reflect=True
+  }
+
+  Instance=Rwing
+  {
+    Moveable=True
+    MeshFile=98_Rwing.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.0) LODOut=(1000.0)  Reflect=True
+  }
+  
+  Instance=PARTS
+  {
+    Moveable=True
+    MeshFile=98_PARTS.gmt   CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(500.0) ShadowCaster=(True, Solid, 128, 128) Reflect=True
+  }
+  
+  Instance=DEBRIS5<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<DEBRIS5>      CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+  
+  Instance=DEBRIS6<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=<DEBRIS6>      CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+  
+  Instance=SUSP_LR
+  {
+    Moveable=True
+    MeshFile=98_susp_lr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+  
+  Instance=SUSP_RR
+  {
+    Moveable=True
+    MeshFile=98_susp_rr.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(500.0) Reflect=True
+  }
+
+  Instance=LFT<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=98_TIRE_<1>_LF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+	MeshFile=98_spin_lf.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(350.00) Reflect=True
+  }
+
+
+  Instance=RFT<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=98_TIRE_<1>_RF.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+	MeshFile=98_spin_rf.gmt     CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(350.00) Reflect=True
+  }
+
+
+  Instance=LRT<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=98_TIRE_<1>_LR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+
+
+  Instance=RRT<UPNUMBER>
+  {
+    Moveable=True
+    MeshFile=98_TIRE_<1>_RR.GMT CollTarget=False HATTarget=False ShadowCaster=(Dynamic, Solid, 128, 128)  LODIn=(0.00) LODOut=(350.0)  Reflect=True
+  }
+<STOPUPGRADES>
+}

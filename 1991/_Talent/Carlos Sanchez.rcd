@@ -1,0 +1,23 @@
+Carlos Sanchez//Ayrton Senna
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=1.8
+    Aggression=86
+    Reputation=99
+    Crash=1//80
+    Courtesy=70
+    Composure=85
+    Speed=96
+    StartSkill=85
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=95
+    TireManagement=91
+}

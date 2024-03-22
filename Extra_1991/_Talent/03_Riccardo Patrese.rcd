@@ -1,0 +1,23 @@
+Riccardo Patrese
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=2.8
+    Aggression=84
+    Reputation=99
+    Crash=1//80
+    Courtesy=80
+    Composure=85
+    Speed=94
+    StartSkill=83
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=95
+    TireManagement=93
+}

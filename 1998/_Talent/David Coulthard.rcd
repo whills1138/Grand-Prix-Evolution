@@ -1,0 +1,23 @@
+David Coulthard
+{
+ //Driver Info
+ Nationality=Scottish
+ DateofBirth=27-3-71
+ Starts=128
+ Poles=12
+ Wins=11
+ DriversChampionships=0
+
+  //QualifyingAbility=2
+  Aggression=84.0
+  Reputation=99
+  Crash=1//83.0
+  Courtesy=80.0
+  Composure=92.0
+  Speed=96
+  StartSkill=85  //6.0
+  Recovery=45 //18.0
+  CompletedLaps=90.0
+  MinRacingSkill=93.0
+  TireManagement=85
+}

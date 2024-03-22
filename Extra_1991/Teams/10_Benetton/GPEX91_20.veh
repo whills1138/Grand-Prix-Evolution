@@ -1,0 +1,37 @@
+
+DefaultLivery="GPX91_19.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=1991\Form91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP91_AI
+
+
+Number=20
+FullTeamName="GPEX1991 10 Benetton"
+PitGroup="Group10"
+Driver="Nelson Piquet"
+Description="GPE91: 20 Nelson Piquet"
+Engine="Ford"
+Manufacturer="Benetton - Ford"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1991"
+
+Team="Benetton"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Extra 1991"
+Category="Grand Prix Evo Extra,1991 Season"

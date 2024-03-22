@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX9708.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra97_Upgrades.ini   
+GenString=GN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX00_AI
+
+
+Number=17
+FullTeamName="GPEX1997 08 Sauber"
+PitGroup="Group8"
+Driver="Gianni Morbidelli"
+Description="GPE97: 17 Gianni Morbidelli"
+Engine="Petronas"
+
+Classes="Grand_Prix_Extra_1997"
+
+Team="Sauber"
+Manufacturer="Sauber - Petronas"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 1997"
+
+
+Category="Grand Prix Evo Extra,1997 Season"

@@ -1,0 +1,16 @@
+Heinz-Harald Frentzen
+{
+  QualifyingAbility=4.2
+
+  Aggression=75
+  Reputation=90
+  Courtesy=90
+  Composure=85
+  Speed=92
+  Crash=1
+  Recovery=60
+  CompletedLaps=98
+  MinRacingSkill=95
+  TireManagement=80
+  StartSkill=80
+}

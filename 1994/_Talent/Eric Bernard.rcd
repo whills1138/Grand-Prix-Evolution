@@ -1,0 +1,22 @@
+Eric Bernard
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=24-08-1964
+  Starts=109
+  Poles=0
+  Wins=0
+  //QualifyingAbility=9.0
+
+  Aggression=75
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=91.75
+  Speed=82
+  Reputation=99
+  Crash=1//89
+  Composure=90
+  CompletedLaps=95
+  TireManagement=70
+}

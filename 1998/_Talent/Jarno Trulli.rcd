@@ -1,0 +1,23 @@
+Jarno Trulli
+{
+ //Driver Info
+ Nationality=Italian
+ DateofBirth=13-7-74
+ Starts=78
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=8
+  Aggression=70.0
+  Reputation=99
+  Crash=1//68.0
+  Courtesy=95.0
+  Composure=81.0
+  Speed=68
+  StartSkill=85  //11.0
+  Recovery=45 //9.0
+  CompletedLaps=91.0
+  MinRacingSkill=90.0
+  TireManagement=77
+}

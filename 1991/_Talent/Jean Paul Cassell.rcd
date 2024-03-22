@@ -1,0 +1,23 @@
+Jean Paul Cassell//Alain Prost
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=3.6
+    Aggression=82
+    Reputation=99
+    Crash=1//80
+    Courtesy=80
+    Composure=85
+    Speed=92.4
+    StartSkill=83
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=93
+    TireManagement=94
+}

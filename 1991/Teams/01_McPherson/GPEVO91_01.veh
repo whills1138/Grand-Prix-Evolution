@@ -1,0 +1,37 @@
+
+DefaultLivery="GPE91_01.tga"
+
+HDVehicle=Form91.hdv
+Graphics=Form91.gen
+Spinner=Form91_Spinner.gen
+Upgrades=Form91_Upgrades.ini
+Cameras=Form91.cam     
+Sounds=Form91_Sounds.sfx
+HeadPhysics=Form91_HeadPhysics.ini 
+Cockpit=Form91_cockpitinfo.ini
+GenString=1S
+
+AIUpgradeClass=GP91_AI
+
+
+Number=01
+FullTeamName="GP91 01 McPherson"
+PitGroup="Group1"
+Driver="Carlos Sanchez"
+Description="GPE91: 01 Carlos Sanchez"
+Engine="Alpha"
+Manufacturer="McPherson - Alpha"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Evo_1991"
+
+Team="McPherson"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1991"
+Category="Grand Prix Evo 1991"

@@ -1,0 +1,16 @@
+Ralf Schumacher
+{
+  QualifyingAbility=2.0
+
+  Aggression=80
+  Reputation=95
+  Courtesy=90
+  Composure=90
+  Speed=95
+  Crash=1
+  Recovery=60
+  CompletedLaps=98
+  MinRacingSkill=98
+  TireManagement=85
+  StartSkill=80
+}

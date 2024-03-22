@@ -1,0 +1,23 @@
+Satoru Nakajima
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=8.5
+    Aggression=73
+    Reputation=99
+    Crash=1//80
+    Courtesy=90
+    Composure=85
+    Speed=78.5
+    StartSkill=75
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=86
+    TireManagement=80
+}

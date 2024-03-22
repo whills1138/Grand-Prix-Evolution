@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX0001a.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra00_Upgrades.ini   
+GenString=BN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX00_AI
+
+
+Number=01
+FullTeamName="GPEX2000 01 McLaren"
+PitGroup="Group1"
+Driver="Mika Hakkinen"
+Description="GPE00: 01 Mika Hakkinen"
+Engine="Mercedes"
+
+Classes="Grand_Prix_Extra_2000"
+
+Team="McLaren"
+Manufacturer="McLaren - Mercedes"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 2000"
+
+
+Category="Grand Prix Evo Extra,2000 Season"

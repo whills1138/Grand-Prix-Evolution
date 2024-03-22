@@ -1,0 +1,23 @@
+Johnny Herbert
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=15
+    Aggression=72
+    Reputation=99
+    Crash=1//80
+    Courtesy=90
+    Composure=85
+    Speed=64
+    StartSkill=76
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=85
+    TireManagement=78
+}

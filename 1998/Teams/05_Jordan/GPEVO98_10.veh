@@ -1,0 +1,39 @@
+
+DefaultLivery="GPE9805.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=GN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+
+
+Number=10
+FullTeamName="GP98 05 Jordan"
+PitGroup="Group5"
+Description="GPE98: 10 Ralf Schumacher"
+Driver="Ralf Schumacher"
+Engine="Mugen Honda"
+Manufacturer="Jordan - Mugen Honda"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+Classes="Grand_Prix_Evo_1998"
+
+Team="Jordan"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1998"
+Category="Grand Prix Evo 1998"

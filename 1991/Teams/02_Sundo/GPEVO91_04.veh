@@ -1,0 +1,37 @@
+
+DefaultLivery="GPE91_03.tga"
+
+HDVehicle=Form91.hdv
+Graphics=Form91.gen
+Spinner=Form91_Spinner.gen
+Upgrades=Form91_Upgrades.ini
+Cameras=Form91.cam     
+Sounds=Form91_Sounds.sfx
+HeadPhysics=Form91_HeadPhysics.ini 
+Cockpit=Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP91_AI
+
+
+Number=04
+FullTeamName="GP91 02 Sundo"
+PitGroup="Group2"
+Driver="Mario Innocenti"
+Description="GPE91: 04 Mario Innocenti"
+Engine="Sorrell"
+Manufacturer="Sundo - Sorrell"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Evo_1991"
+
+Team="Sundo"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Evo 1991"
+Category="Grand Prix Evo 1991"

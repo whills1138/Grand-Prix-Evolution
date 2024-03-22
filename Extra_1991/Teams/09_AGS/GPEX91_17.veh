@@ -1,0 +1,37 @@
+
+DefaultLivery="GPX91_17.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=1991\Form91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=1N
+
+AIUpgradeClass=GP91_AI
+
+
+Number=17
+FullTeamName="GPEX1991 09 AGS"
+PitGroup="Group9"
+Driver="Gabriele Tarquini"
+Description="GPE91: 17 Gabriele Tarquini"
+Engine="Ford"
+Manufacturer="AGS - Ford"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1991"
+
+Team="AGS"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Extra 1991"
+Category="Grand Prix Evo Extra,1991 Season"

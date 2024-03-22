@@ -1,0 +1,23 @@
+Ukyo Katayama
+{
+ //Driver Info
+ Nationality=Japon
+ DateofBirth=29-05-63
+ Starts=97
+ Poles=0
+ Wins=0
+ //QualifyingAbility=8.5
+ 
+
+  Aggression=75
+  StartSkill=87  //2.0
+  Courtesy=90
+  Recovery=45
+  MinRacingSkill=92.5
+  Speed=84
+  Reputation=99
+  Crash=1//80
+  Composure=90
+  CompletedLaps=95
+  TireManagement=70
+}

@@ -1,0 +1,23 @@
+Karl Sorensson//Alex Caffi
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    //QualifyingAbility=17.5
+    Aggression=70
+    Reputation=99
+    Crash=1//80
+    Courtesy=90
+    Composure=85
+    Speed=62
+    StartSkill=75
+    Recovery=45
+    CompletedLaps=90
+    MinRacingSkill=85
+    TireManagement=78
+}

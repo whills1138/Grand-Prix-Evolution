@@ -1,0 +1,37 @@
+
+DefaultLivery="GPX91_23.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=1991\Form91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP91_AI
+
+
+Number=24
+FullTeamName="GPEX1991 12 Minardi"
+PitGroup="Group12"
+Driver="Gianni Morbidelli"
+Description="GPE91: 24 Gianni Morbidelli"
+Engine="Ferrari"
+Manufacturer="Minardi - Ferrari"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 25"
+Classes="Grand_Prix_Extra_1991"
+
+Team="Minardi"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+OpponentFilter="Grand Prix Extra 1991"
+Category="Grand Prix Evo Extra,1991 Season"

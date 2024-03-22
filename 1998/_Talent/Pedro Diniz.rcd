@@ -1,0 +1,23 @@
+Pedro Diniz
+{
+ //Driver Info
+ Nationality=Brazilian
+ DateofBirth=22-5-70
+ Starts=82
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  //QualifyingAbility=7
+  Aggression=72.0
+  Reputation=99
+  Crash=1//71.0
+  Courtesy=90.0
+  Composure=89.0
+  Speed=73
+  StartSkill=85  //8.0
+  Recovery=45 //12.0
+  CompletedLaps=90
+  MinRacingSkill=90.0
+  TireManagement=70
+}

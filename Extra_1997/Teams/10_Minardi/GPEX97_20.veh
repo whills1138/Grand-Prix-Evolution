@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX9710.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra97_Upgrades.ini   
+GenString=BN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX00_AI
+
+
+Number=20
+FullTeamName="GPEX1997 10 Minardi"
+PitGroup="Group10"
+Driver="Ukyo Katayama"
+Description="GPE97: 20 Ukyo Katayama"
+Engine="Hart"
+
+Classes="Grand_Prix_Extra_1997"
+
+Team="Minardi"
+Manufacturer="Minardi - Hart"
+Transmission="6-speed semi-auto"
+Extra="Recommended Opponents : 21"
+TeamStarts=
+TeamPoles=
+TeamWins=
+OpponentFilter="Grand Prix Extra 1997"
+
+
+Category="Grand Prix Evo Extra,1997 Season"
