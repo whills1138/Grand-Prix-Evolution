@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX92_27.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra92_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP92_AI
+
+
+Number=28
+Team="GPEX1992 13 Ferrari"
+PitGroup="Group13"
+Driver="Ivan Capelli"
+Description="28 Ivan Capelli"
+Engine="Ferrari"
+FullTeamName="Ferrari"
+Manufacturer="Ferrari - Ferrari"
+Classes="Grand_Prix_Extra_1992"
+
+//Ferrari"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1992 Season"

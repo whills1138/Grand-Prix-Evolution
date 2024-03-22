@@ -1,0 +1,20 @@
+Mika Hakkinen
+{
+//Driver Info
+  Nationality=Finnish
+  DateofBirth=28-9-1968
+  Starts=77
+  Poles=0
+  Wins=0
+  QualifyingAbility=2.0
+
+  Aggression=83
+  //Crash=1
+  Courtesy=60
+  Recovery=75
+  MinRacingSkill=98.5
+  Speed=97
+  Reputation=98
+  Composure=94
+  CompletedLaps=98
+}

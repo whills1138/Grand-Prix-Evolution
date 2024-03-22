@@ -1,0 +1,154 @@
+
+// ENGINES
+// inside coasting
+VS_INSIDE_COAST_ENGINE_1=default\idle.wav
+VS_INSIDE_COAST_ENGINE_2=default\coast.wav
+
+// inside on-throttle
+VS_INSIDE_POWER_ENGINE_1=default\idle.wav
+VS_INSIDE_POWER_ENGINE_2=default\power.wav
+
+// outside coasting
+VS_OUTSIDE_COAST_ENGINE_1=default\idle.wav
+VS_OUTSIDE_COAST_ENGINE_2=default\coast.wav
+
+// outside on-throttle
+VS_OUTSIDE_POWER_ENGINE_1=default\idle.wav
+VS_OUTSIDE_POWER_ENGINE_2=default\power.wav
+
+
+// TIRE NOISES
+// inside
+VS_INSIDE_TIRE_SCRUB=default\scrub.wav
+VS_INSIDE_SKID_DRY=default\skid.wav
+VS_INSIDE_ROADNOISE_RUMBLESTRIP=default\rumble.wav
+VS_INSIDE_ROADNOISE_GRASS=default\gravel.wav
+VS_INSIDE_ROADNOISE_DIRT=default\gravel.wav
+VS_INSIDE_ROADNOISE_GRAVEL=default\gravel.wav
+
+// outside
+VS_OUTSIDE_TIRE_SCRUB=default\scrub.wav
+VS_OUTSIDE_SKID_DRY=default\skid.wav
+VS_OUTSIDE_ROADNOISE_RUMBLESTRIP=default\rumble.wav
+VS_OUTSIDE_ROADNOISE_GRASS=default\gravel.wav
+VS_OUTSIDE_ROADNOISE_DIRT=default\gravel.wav
+VS_OUTSIDE_ROADNOISE_GRAVEL=default\gravel.wav
+
+
+//OTHER
+VS_INSIDE_HIT_WALL_1=default\crash.wav
+VS_INSIDE_HIT_WALL_2=default\crash.wav
+VS_INSIDE_HIT_WALL_3=default\crash.wav
+VS_INSIDE_HIT_WALL_4=default\crash.wav
+VS_INSIDE_HIT_WALL_5=default\crash.wav
+
+VS_INSIDE_HIT_OTHERCAR_1=default\crash.wav
+VS_INSIDE_HIT_OTHERCAR_2=default\crash.wav
+VS_INSIDE_HIT_OTHERCAR_3=default\crash.wav
+VS_INSIDE_HIT_OTHERCAR_4=default\crash.wav
+VS_INSIDE_HIT_OTHERCAR_5=default\crash.wav
+
+VS_INSIDE_SEAT=Secondary\seat.wav 
+VS_INSIDE_MIRROR=Secondary\mirror.wav
+
+VS_OUTSIDE_HIT_WALL_1=default\crash.wav
+VS_OUTSIDE_HIT_WALL_2=default\crash.wav
+VS_OUTSIDE_HIT_WALL_3=default\crash.wav
+VS_OUTSIDE_HIT_WALL_4=default\crash.wav
+VS_OUTSIDE_HIT_WALL_5=default\crash.wav
+
+VS_OUTSIDE_HIT_OTHERCAR_1=default\crash.wav
+VS_OUTSIDE_HIT_OTHERCAR_2=default\crash.wav
+VS_OUTSIDE_HIT_OTHERCAR_3=default\crash.wav
+VS_OUTSIDE_HIT_OTHERCAR_4=default\crash.wav
+VS_OUTSIDE_HIT_OTHERCAR_5=default\crash.wav
+
+// ATTENUTATION
+EngineRange=70.0     // applies to all engine sounds
+EngineShape=1.00
+EngineAmbient=14.00 
+ShiftRange=70.0     // applies to shifts and backfires
+ShiftShape=1.00
+ShiftAmbient=14.00 
+OtherRange=20.0     // applies to everything else
+OtherShape=1.00
+OtherAmbient=6.00
+
+
+// ENGINE VOLUME MIX
+playerEngineVolumeMinimum=0.3
+playerEngineVolumeThrottleFraction=0.5
+playerEngineVolumeRevFraction=0.2
+
+non-playerEngineVolumeMinimum=0.3
+non-playerEngineVolumeThrottleFraction=0.5
+non-playerEngineVolumeRevFraction=0.2
+
+
+// ENGINE THROTTLE-POSITION MIX
+EngineLoadBlendInside=(0.1,0.7)   // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+EngineLoadBlendOutside=(0.1,0.7)  // power sound starts to blend in at 10% throttle, coast sound blends out at 70%
+
+
+// ENGINE REV-SAMPLE MIX
+// coast inside
+EngineRPMCoastInside=0
+{
+  MinimumRPM=5.00        // above zero, but low enough to hear engine stall
+  MaximumRPM=3100.00     // must overlap properly
+  NaturalRPM=1838.5499   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastInside=1
+{
+  MinimumRPM=2100.00     // must overlap properly
+  MaximumRPM=20000.00    // high enough that it is never hit, or sound will cut out
+  NaturalRPM=4329.3242   // engine RPM at which sample was recorded
+}
+
+// power inside
+EngineRPMPowerInside=0
+{
+  MinimumRPM=5.00        // above zero, but low enough to hear engine stall
+  MaximumRPM=3100.00     // must overlap properly
+  NaturalRPM=1838.5499   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerInside=1
+{
+  MinimumRPM=2100.00     // must overlap properly
+  MaximumRPM=20000.00    // high enough that it is never hit, or sound will cut out
+  NaturalRPM=4329.3242   // engine RPM at which sample was recorded
+}
+
+// coast outside
+EngineRPMCoastOutside=0
+{
+  MinimumRPM=5.00        // above zero, but low enough to hear engine stall
+  MaximumRPM=3100.00     // must overlap properly
+  NaturalRPM=1838.5499   // engine RPM at which sample was recorded
+}
+
+EngineRPMCoastOutside=1
+{
+  MinimumRPM=2100.00     // must overlap properly
+  MaximumRPM=20000.00    // high enough that it is never hit, or sound will cut out
+  NaturalRPM=4329.3242   // engine RPM at which sample was recorded
+}
+
+// power outside
+EngineRPMPowerOutside=0
+{
+  MinimumRPM=5.00        // above zero, but low enough to hear engine stall
+  MaximumRPM=3100.00     // must overlap properly
+  NaturalRPM=1838.5499   // engine RPM at which sample was recorded
+}
+
+EngineRPMPowerOutside=1
+{
+  MinimumRPM=2050.00     // must overlap properly
+  MaximumRPM=20000.00    // high enough that it is never hit, or sound will cut out
+  NaturalRPM=4329.3242   // engine RPM at which sample was recorded
+}
+
+

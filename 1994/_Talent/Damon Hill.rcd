@@ -1,0 +1,21 @@
+Damon Hill
+{
+ //Driver Info
+ Nationality=Grande Bretagne
+ DateofBirth=17-9-60
+ Starts=122
+ Poles=20
+ Wins=22
+ QualifyingAbility=2.0
+ 
+
+  Aggression=83
+  //Crash=1
+  Courtesy=60
+  Recovery=75
+  MinRacingSkill=99.25
+  Speed=98.5
+  Reputation=99
+  Composure=95
+  CompletedLaps=99
+}

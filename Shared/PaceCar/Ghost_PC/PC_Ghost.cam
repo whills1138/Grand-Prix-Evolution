@@ -1,0 +1,91 @@
+//PC Ghost
+
+LocalCam=NOSECAM
+{
+  Fov=(62.500000, 62.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.900000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(90.000000, 90.000000, 90.000000)
+  PositionOffset=(0.000000, 0.300000, 0.000000)
+  OrientationOffset=(0.000000, 0.000000, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=COCKPIT
+{
+  Fov=(75.000000, 72.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.225000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(999.000000, 999.000000, 999.000000)  
+  PositionOffset=(0.000000, 0.000, -0.0100000)  
+  OrientationOffset=(-0.030000, 0.000000, 0.000000)
+  Radius=(0.000000)
+}
+LocalCam=TVCOCKPIT
+{
+  Fov=(87.500000, 62.500000)
+  Clear=TRUE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.305000, 500.000000)
+  LODMultiplier=(1.000000)
+  MipmapLODBias=(0.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(35.000000, 35.000000, 25.000000)
+  PositionOffset=(-0.0, 0.5, 0.2950790)
+  OrientationOffset=(-0.068662, -0.015162, 0.001304)
+  Radius=(0.000000)
+}
+LocalCam=SWINGMAN
+{
+  Fov=(62.500000, 62.500000)
+  Clear=TRUE
+  Color=(164, 218, 249)
+  ClipPlanes=(0.500000, 500.000000)
+  LODMultiplier=(2.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(2.000000, 20.000000)
+  OrientationRate=(1.250000, 2.250000, 0.000000)
+  PositionOffset=(0.000000, 0.2500000, 0.850000)
+  OrientationOffset=(-0.20000, 0.000000, 0.000000)
+  Radius=(7.5)
+}
+LocalCam=ONBOARD001
+{
+  Fov=(60.000000, 45.000000)
+  Clear=FALSE
+  Color=(0, 0, 0)
+  ClipPlanes=(0.500000, 500.000000)
+  LODMultiplier=(1.000000)
+  Size=(1.000000, 1.000000)
+  Center=(0.500000, 0.500000)
+  MipmapLODBias=(0.000000)
+  Flags1=(0)
+  Flags2=(0)
+  RadiusLimits=(0.000000, 0.000000)
+  OrientationRate=(360.000000, 360.000000, 360.000000)
+  PositionOffset=(1.285958, -0.040844, -0.334311)
+  OrientationOffset=(-0.027070, 0.147370, 0.001232)
+  Radius=(0.000000)
+}

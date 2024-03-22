@@ -1,0 +1,20 @@
+Heinz-Harald Frentzen
+{
+//Driver Info
+  Nationality=Austrian
+  DateofBirth=18-05-1967
+  Starts=74
+  Poles=0
+  Wins=0
+  QualifyingAbility=6.5
+
+  Aggression=78
+  //Crash=1
+  Courtesy=70
+  Recovery=75
+  MinRacingSkill=94.75
+  Speed=89
+  Reputation=93
+  Composure=92
+  CompletedLaps=97
+}

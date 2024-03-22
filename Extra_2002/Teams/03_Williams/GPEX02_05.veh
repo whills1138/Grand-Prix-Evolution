@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX0203.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra02_Upgrades.ini   
+GenString=GN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX02_AI
+
+
+Number=05
+Team="GPEX2002 03 Williams"
+PitGroup="Group3"
+Driver="Ralf Schumacher"
+Description="05 Ralf Schumacher"
+Engine="BMW"
+
+Classes="Grand_Prix_Extra_2002"
+
+FullTeamName="Williams"
+Manufacturer="Williams - BMW"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,2002 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

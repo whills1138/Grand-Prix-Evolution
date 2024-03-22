@@ -1,0 +1,38 @@
+
+DefaultLivery=GPE94_14.tga"
+
+
+HDVehicle=Form94.hdv
+Graphics=Form94.gen
+Spinner=Form94_Spinner.gen
+Upgrades=Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselLG                        // Used to generate GMT names in *.gen file
+Cameras=Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=Form94_Sounds.sfx
+HeadPhysics=Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+BaseVehiclePrice=500
+
+
+Number=14
+Team="GPE94 07 Jordan"
+PitGroup="Group7"
+Driver="Rubens Barrichello"
+Description="14 Rubens Barrichello"
+Engine="Hart"
+
+Classes="Grand_Prix_Evo_1994"
+
+FullTeamName="Jordan"
+Manufacturer="Jordan - Hart"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1994"

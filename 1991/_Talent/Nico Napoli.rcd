@@ -1,0 +1,21 @@
+Nico Napoli//Andrea De Cesaris
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=0
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    QualifyingAbility=5.5
+    Aggression=78
+    Reputation=80
+    Courtesy=70
+    Composure=85
+    Speed=86
+    //Crash=1
+    Recovery=80
+    CompletedLaps=90
+    MinRacingSkill=92
+}

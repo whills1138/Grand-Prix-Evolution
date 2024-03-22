@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_17.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=18
+Team="GPEX1991 09 AGS"
+PitGroup="Group9"
+Driver="Fabrizio Barbazza"
+Description="18 Fabrizio Barbazza"
+Engine="Ford"
+FullTeamName="AGS"
+Manufacturer="AGS - Ford"
+Classes="Grand_Prix_Extra_1991"
+
+//AGS"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

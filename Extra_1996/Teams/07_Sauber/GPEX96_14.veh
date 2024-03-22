@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX9607.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra96_Upgrades.ini   
+GenString=GN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX96_AI
+
+
+Number=14
+Team="GPEX1996 07 Sauber"
+PitGroup="Group7"
+Driver="Johnny Herbert"
+Description="14 Johnny Herbert"
+Engine="Petronas"
+
+Classes="Grand_Prix_Extra_1996"
+
+FullTeamName="Sauber"
+Manufacturer="Sauber - Petronas"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1996 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

@@ -1,0 +1,155 @@
+//PC Ghost
+
+SearchPath=<VEHDIR>\
+
+MASFile=Shared\PaceCar\Ghost_PC\PC_Ghost.mas
+MASFile=..\PaceCar\Hammer_PC\Hammer_PC.mas
+MASFile=..\cmaps.mas
+
+Instance=SLOT<ID>
+{
+  Moveable=True
+  MeshFile=PC_GHOST_SHAD.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(0.0)
+  
+  MeshFile=hammer_PCa.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.0) ShadowReceiver=True
+  MeshFile=hammer_PCb.gmt CollTarget=False HATTarget=False LODIn=(30.0) LODOut=(100.0) ShadowReceiver=True
+  MeshFile=hammer_PCc.gmt CollTarget=False HATTarget=False LODIn=(100.0) LODOut=(200.0) ShadowReceiver=True
+  MeshFile=hammer_PCd.gmt CollTarget=False HATTarget=False LODIn=(200.0) LODOut=(600.0) ShadowReceiver=True
+  
+  MeshFile=PC_GHOST_ADD.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(30.0) ShadowReceiver=True
+
+  MeshFile=hammer_PCshad.gmt CollTarget=True HATTarget=False ShadowObject=(True, Solid, 256, 256, hampc_undershadow.tga) LODIn=(0.0) LODOut=(200.0)
+
+  Actor=VEHICLE
+  
+  Projector=Headlight
+  {
+    Moveable=True Dyn=True Active=False Pos=(0.0, 0.0, -17.0) Dir=(0.0, -.3, -.7) Radius=(6.5) Blend=(InvDstColor, One) Texmap=headlight1.tga
+  }
+
+  Instance=HlightPS
+  {
+    Moveable=True
+    MeshFile=Ham_PC_Headlamp_right.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+    MeshFile=hlglo_PS.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(350.0)
+  }
+
+  Instance=HlightDS
+  {
+    Moveable=True
+    MeshFile=Ham_PC_Headlamp_left.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+    MeshFile=hlglo_DS.gmt CollTarget=False HATTarget=False LODIn=(0.0) LODOut=(350.0)
+  }
+
+  Instance=RWING
+  {
+    Moveable=True
+    MeshFile=Ham_PC_spoiler.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=HOOD
+  {
+    Moveable=True
+    MeshFile=Ham_PC_hood.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=FRONTCLIP
+  {
+    Moveable=True
+    MeshFile=Ham_PC_Airdam.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=REARBUMPER
+  {
+    Moveable=True
+    MeshFile=Ham_PC_rearbump.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=FENDERS
+  {
+    Moveable=True
+ MeshFile=Ham_PC_fenders.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 64, 64) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=SIDESKIRTS
+  {
+    Moveable=True
+ MeshFile=Ham_PC_sideskirts.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 256, 256) LODIn=(0.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=WINDOWS
+  {
+    Moveable=True
+    MeshFile=Ham_PC_Windows.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=UNDERSIDE
+  {
+    Moveable=True
+    MeshFile=Ham_PC_underside.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=TAILLIGHTS
+  {
+    Moveable=True
+    MeshFile=Ham_PC_taillights.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=WARNINGLIGHT
+  {
+    Moveable=True
+    MeshFile=Ham_PC_TaillightsFlash.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0)
+    MeshFile=Hammer_PC_seqlights.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0)
+  }
+
+  Instance=EXHAUST
+  {
+    Moveable=True
+    MeshFile=Ham_PC_exhaust.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(90.0) ShadowReceiver=True
+  }
+  
+  Instance=MIRRORS
+  {
+    Moveable=True
+    MeshFile=Ham_PC_Mirrors.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(90.0) ShadowReceiver=True
+  }
+
+  Instance=LIGHTBAR
+  {
+    Moveable=True
+    MeshFile=Hammer_PC_Lightbar.gmt CollTarget=False HATTarget=False LODIn=(0.00) LODOut=(500.0) ShadowReceiver=True
+  }
+
+  Instance=LFTIRE
+  {
+    Moveable=True
+    MeshFile=hamPC_tlfa_a.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(20.0) ShadowReceiver=True
+    MeshFile=hamPC_tlfa_b.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(20.0) LODOut=(75.0) ShadowReceiver=True
+    MeshFile=hamPC_tlfa_c.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(75.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=RFTIRE
+  {
+    Moveable=True
+    MeshFile=hamPC_trfa_a.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(20.0) ShadowReceiver=True
+    MeshFile=hamPC_trfa_b.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(20.0) LODOut=(75.0) ShadowReceiver=True
+    MeshFile=hamPC_trfa_c.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(75.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=LRTIRE
+  {
+    Moveable=True
+    MeshFile=hamPC_tlra_a.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(20.0) ShadowReceiver=True
+    MeshFile=hamPC_tlra_b.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(20.0) LODOut=(75.0) ShadowReceiver=True
+    MeshFile=hamPC_tlra_c.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(75.0) LODOut=(350.0) ShadowReceiver=True
+  }
+
+  Instance=RRTIRE
+  {
+    Moveable=True
+    MeshFile=hamPC_trra_a.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(0.00) LODOut=(20.0) ShadowReceiver=True
+    MeshFile=hamPC_trra_b.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(20.0) LODOut=(75.0) ShadowReceiver=True
+    MeshFile=hamPC_trra_c.gmt CollTarget=False HATTarget=False ShadowCaster=(True, Solid, 128, 128) LODIn=(75.0) LODOut=(350.0) ShadowReceiver=True
+   
+  }
+}

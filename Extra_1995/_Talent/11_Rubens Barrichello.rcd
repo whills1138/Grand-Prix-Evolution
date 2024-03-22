@@ -1,0 +1,14 @@
+Rubens Barrichello
+{
+  QualifyingAbility=5.0
+
+  Aggression=75
+  Reputation=85
+  Courtesy=90
+  Composure=80
+  Speed=90
+  Crash=1
+  Recovery=60
+  CompletedLaps=95
+  MinRacingSkill=92
+}

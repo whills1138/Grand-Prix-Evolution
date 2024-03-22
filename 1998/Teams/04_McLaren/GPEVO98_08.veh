@@ -1,0 +1,45 @@
+
+DefaultLivery=GPE9804.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=BN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+BaseVehiclePrice=500
+
+
+Number=08
+Team="GPE98 04 McLaren"
+PitGroup="Group4"
+Driver="Mika Hakkinen"
+Description="08 Mika Hakkinen"
+Engine="Mercedes"
+
+Classes="Grand_Prix_Evo_1998"
+
+FullTeamName="McLaren"
+Manufacturer="McLaren - Mercedes"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1998"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

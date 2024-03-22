@@ -1,0 +1,35 @@
+CUBEASF
+
+SearchPath=.
+MASFile=cmaps.MAS
+
+View=mainview
+{
+  Clear=False
+  Color=(255, 255, 255)
+  Size=(1.00, 1.00) Center=(0.5, 0.5)
+  FOV=(77.75, 52.50)
+  ClipPlanes=(0.1, 150.00)
+}
+
+GroupMethod=Dynamic
+AmbientColor=(60,60,70)
+
+Light=FDirect01
+{
+ Type=Directional Dir=(0.586,-0.586,0.586) Color=(245, 245, 255)
+}
+
+Instance=shwfloor
+{
+  Moveable=True
+  MeshFile=shwfloor.gmt CollTarget=True HATTarget=True ShadowReceiver=True 
+  
+    Instance=not_purchased
+  {
+    Moveable=True 
+    MeshFile=not_purchased.gmt CollTarget=False HATTarget=False Reflect=True
+  }
+}
+
+

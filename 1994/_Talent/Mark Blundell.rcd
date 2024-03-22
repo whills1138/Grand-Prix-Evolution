@@ -1,0 +1,20 @@
+Mark Blundell
+{
+ //Driver Info
+ Nationality=Grande Bretagne
+ DateofBirth=8-4-66
+ Starts=42
+ Poles=0
+ Wins=0
+ QualifyingAbility=6.0
+ 
+  Aggression=82
+  //Crash=1
+  Courtesy=70
+  Recovery=75
+  MinRacingSkill=95.5
+  Speed=90
+  Reputation=94
+  Composure=92
+  CompletedLaps=97
+}

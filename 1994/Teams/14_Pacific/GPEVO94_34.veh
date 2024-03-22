@@ -1,0 +1,38 @@
+
+DefaultLivery=GPE94_34.tga"
+
+
+HDVehicle=Form94.hdv
+Graphics=Form94.gen
+Spinner=Form94_Spinner.gen
+Upgrades=Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehGY                        // Used to generate GMT names in *.gen file
+Cameras=Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=Form94_Sounds.sfx
+HeadPhysics=Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+BaseVehiclePrice=500
+
+
+Number=34
+Team="GPE94 14 Pacific"
+PitGroup="Group14"
+Driver="Bertrand Gachot"
+Description="34 Bertrand Gachot"
+Engine="Ilmor"
+
+Classes="Grand_Prix_Evo_1994"
+
+FullTeamName="Pacific"
+Manufacturer="Pacific - Ilmor"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1994"

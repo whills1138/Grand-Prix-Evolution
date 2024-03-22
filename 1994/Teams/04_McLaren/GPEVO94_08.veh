@@ -1,0 +1,38 @@
+
+DefaultLivery=GPE94_08.tga"
+
+
+HDVehicle=Form94.hdv
+Graphics=Form94.gen
+Spinner=Form94_Spinner.gen
+Upgrades=Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselWH                        // Used to generate GMT names in *.gen file
+Cameras=Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=Form94_Sounds.sfx
+HeadPhysics=Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+BaseVehiclePrice=500
+
+
+Number=08
+Team="GPE94 04 McLaren"
+PitGroup="Group4"
+Driver="Martin Brundle"
+Description="08 Martin Brundle"
+Engine="Peugeot"
+
+Classes="Grand_Prix_Evo_1994"
+
+FullTeamName="McLaren"
+Manufacturer="McLaren - Peugeot"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1994"

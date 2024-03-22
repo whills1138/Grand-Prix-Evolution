@@ -1,0 +1,21 @@
+JJ Lehto
+{
+ //Driver Info
+ Nationality=Holland
+ DateofBirth=4-3-72
+ Starts=7
+ Poles=0
+ Wins=0
+ QualifyingAbility=9.0
+ 
+
+  Aggression=74
+  //Crash=1
+  Courtesy=70
+  Recovery=75
+  MinRacingSkill=91
+  Speed=81
+  Reputation=88
+  Composure=89
+  CompletedLaps=94
+}

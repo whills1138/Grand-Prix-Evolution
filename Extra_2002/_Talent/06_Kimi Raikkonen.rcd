@@ -1,0 +1,14 @@
+Kimi Raikkonen
+{
+  QualifyingAbility=2.4
+
+  Aggression=75
+  Reputation=90
+  Courtesy=90
+  Composure=85
+  Speed=95
+  Crash=1
+  Recovery=60
+  CompletedLaps=98
+  MinRacingSkill=95
+}

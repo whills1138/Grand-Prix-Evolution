@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_29.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=1N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=29
+Team="GPEX1991 15 Lola"
+PitGroup="Group15"
+Driver="Eric Bernard"
+Description="29 Eric Bernard"
+Engine="Ford"
+FullTeamName="Lola"
+Manufacturer="Lola - Ford"
+Classes="Grand_Prix_Extra_1991"
+
+//Lola"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

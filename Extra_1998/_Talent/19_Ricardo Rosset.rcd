@@ -1,0 +1,21 @@
+Ricardo Rosset
+{
+ //Driver Info
+ Nationality=Brazilian
+ DateofBirth=27-7-68
+ Starts=16
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  QualifyingAbility=10
+  Aggression=70.0
+  Reputation=62.0
+  Courtesy=95.0
+  Composure=87.0
+  Speed=63
+  //Crash=1 //11.0
+  Recovery=75 //9.0
+  CompletedLaps=90.0
+  MinRacingSkill=85.0
+}

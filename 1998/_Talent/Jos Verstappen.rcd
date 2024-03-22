@@ -1,0 +1,21 @@
+Jos Verstappen
+{
+ //Driver Info
+ Nationality=Dutch
+ DateofBirth=4-3-72
+ Starts=0
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  QualifyingAbility=10
+  Aggression=70.0
+  Reputation=68.0
+  Courtesy=95.0
+  Composure=74.5
+  Speed=60
+  //Crash=1 //10.0
+  Recovery=75 //10.0
+  CompletedLaps=93.0
+  MinRacingSkill=87.3
+}

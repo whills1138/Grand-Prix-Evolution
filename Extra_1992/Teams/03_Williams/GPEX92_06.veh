@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX92_05.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra92_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP92_AI
+
+
+Number=06
+Team="GPEX1992 03 Williams"
+PitGroup="Group3"
+Driver="Riccardo Patrese"
+Description="06 Riccardo Patrese"
+Engine="Renault"
+FullTeamName="Williams"
+Manufacturer="Williams - Renault"
+Classes="Grand_Prix_Extra_1992"
+
+//Williams"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1992 Season"

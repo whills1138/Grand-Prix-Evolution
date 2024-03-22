@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX92_23.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra92_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=1N
+
+AIUpgradeClass=GP92_AI
+
+
+Number=23
+Team="GPEX1992 11 Minardi"
+PitGroup="Group11"
+Driver="Christian Fittipaldi"
+Description="23 Christian Fittipaldi"
+Engine="Lamborghini"
+FullTeamName="Minardi"
+Manufacturer="Minardi - Lamborghini"
+Classes="Grand_Prix_Extra_1992"
+
+//Minardi"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1992 Season"

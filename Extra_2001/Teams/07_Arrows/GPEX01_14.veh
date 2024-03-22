@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX0107.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra01_Upgrades.ini   
+GenString=B1           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX01_AI
+
+
+Number=14
+Team="GPEX2001 07 Arrows"
+PitGroup="Group7"
+Driver="Jos Verstappen"
+Description="14 Jos Verstappen"
+Engine="Asiatech"
+
+Classes="Grand_Prix_Extra_2001"
+
+FullTeamName="Arrows"
+Manufacturer="Arrows - Asiatech"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,2001 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

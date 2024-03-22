@@ -1,0 +1,38 @@
+
+DefaultLivery=GPX94_29.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselBL                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX94_AI
+BaseVehiclePrice=0
+
+
+Number=29
+Team="GPEX1994 12 Sauber"
+PitGroup="Group12"
+Driver="Karl Wendlinger"
+Description="29 Karl Wendlinger"
+Engine="Mercedes"
+
+Classes="Grand_Prix_Extra_1994"
+
+FullTeamName="Sauber"
+Manufacturer="Sauber - Mercedes"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1994 Season"

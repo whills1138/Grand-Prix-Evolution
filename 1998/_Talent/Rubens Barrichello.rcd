@@ -1,0 +1,21 @@
+Rubens Barrichello
+{
+ //Driver Info
+ Nationality=Brazilian
+ DateofBirth=23-5-72
+ Starts=147
+ Poles=3
+ Wins=1
+ DriversChampionships=0
+
+  QualifyingAbility=6
+  Aggression=71.0
+  Reputation=76.0
+  Courtesy=75.0
+  Composure=93.0
+  Speed=76
+  //Crash=1 //7.5
+  Recovery=75 //14.5
+  CompletedLaps=93.0
+  MinRacingSkill=94.0
+}

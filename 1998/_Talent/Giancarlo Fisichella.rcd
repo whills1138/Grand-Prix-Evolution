@@ -1,0 +1,21 @@
+Giancarlo Fisichella
+{
+ //Driver Info
+ Nationality=Italian
+ DateofBirth=14-1-73
+ Starts=91
+ Poles=1
+ Wins=0
+ DriversChampionships=0
+
+  QualifyingAbility=4.5
+  Aggression=80.0
+  Reputation=80.0
+  Courtesy=80.0
+  Composure=91.5
+  Speed=80
+  //Crash=1 //6.5
+  Recovery=75 //9.2
+  CompletedLaps=90.0
+  MinRacingSkill=93.0
+}

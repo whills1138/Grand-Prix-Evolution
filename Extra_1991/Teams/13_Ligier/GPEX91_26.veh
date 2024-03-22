@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_25.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=26
+Team="GPEX1991 13 Ligier"
+PitGroup="Group13"
+Driver="Erik Comas"
+Description="26 Erik Comas"
+Engine="Lamborghini"
+FullTeamName="Ligier"
+Manufacturer="Ligier - Lamborghini"
+Classes="Grand_Prix_Extra_1991"
+
+//Ligier"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

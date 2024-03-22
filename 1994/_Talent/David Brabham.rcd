@@ -1,0 +1,20 @@
+David Brabham
+{
+ //Driver Info
+ Nationality=Australian
+ DateofBirth=05-09-65
+ Starts=210
+ Poles=12
+ Wins=10
+ QualifyingAbility=15.0
+ 
+  Aggression=70
+  //Crash=1
+  Courtesy=80
+  Recovery=75
+  MinRacingSkill=85.75
+  Speed=70
+  Reputation=81
+  Composure=85
+  CompletedLaps=92
+}

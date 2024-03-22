@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_15.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=16
+Team="GPEX1991 08 Leyton House"
+PitGroup="Group8"
+Driver="Ivan Capelli"
+Description="16 Ivan Capelli"
+Engine="Ilmor"
+FullTeamName="Leyton House"
+Manufacturer="Leyton House - Ilmor"
+Classes="Grand_Prix_Extra_1991"
+
+//Leyton House"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

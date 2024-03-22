@@ -1,0 +1,21 @@
+Andrea de Cesaris
+{
+ //Driver Info
+ Nationality=Italian
+ DateofBirth=31-5-59
+ Starts=214
+ Poles=1
+ Wins=0
+ QualifyingAbility=10.0
+ 
+
+  Aggression=74
+  //Crash=1
+  Courtesy=70
+  Recovery=75
+  MinRacingSkill=91
+  Speed=80
+  Reputation=88
+  Composure=89
+  CompletedLaps=94
+}

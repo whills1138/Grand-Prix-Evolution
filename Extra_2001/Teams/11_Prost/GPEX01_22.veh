@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX0111.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra01_Upgrades.ini   
+GenString=G1           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX01_AI
+
+
+Number=22
+Team="GPEX2001 11 Prost"
+PitGroup="Group11"
+Driver="Heinz-Harald Frentzen"
+Description="22 Heinz-Harald Frentzen"
+Engine="Acer"
+
+Classes="Grand_Prix_Extra_2001"
+
+FullTeamName="Prost"
+Manufacturer="Prost - Acer"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,2001 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

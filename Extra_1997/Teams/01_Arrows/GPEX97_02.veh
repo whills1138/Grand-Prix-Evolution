@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX9701.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra97_Upgrades.ini   
+GenString=BN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX97_AI
+
+
+Number=02
+Team="GPEX1997 01 Arrows"
+PitGroup="Group1"
+Driver="Pedro Diniz"
+Description="02 Pedro Diniz"
+Engine="Yamaha"
+
+Classes="Grand_Prix_Extra_1997"
+
+FullTeamName="Arrows"
+Manufacturer="Arrows - Yamaha"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1997 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

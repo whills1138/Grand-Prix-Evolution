@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_09.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=10
+Team="GPEX1991 05 Footwork"
+PitGroup="Group5"
+Driver="Alex Caffi"
+Description="10 Alex Caffi"
+Engine="Porsche"
+FullTeamName="Footwork"
+Manufacturer="Footwork - Porsche"
+Classes="Grand_Prix_Extra_1991"
+
+//Footwork"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

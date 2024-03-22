@@ -1,0 +1,95 @@
+
+[SLIPCURVE]
+Name="Default"
+Step=0.009000                  // Slip step
+DropoffFunction=0.0            // See explanation above
+Data:
+0.000000 0.174836 0.349483 0.518060 0.668882 0.790665 0.878928 0.936783 0.971287 0.989751
+0.997978 0.999999 0.999443 0.997888 0.995461 0.992359 0.988833 0.985169 0.981664 0.978601
+0.976226 0.974732 0.974231 0.973854 0.972902 0.971388 0.969333 0.966764 0.963717 0.960230
+0.956346 0.952111 0.947571 0.942775 0.937767 0.932593 0.927295 0.921913 0.916482 0.911036
+0.905604 0.900210 0.894878 0.889626 0.884469 0.879422 0.874493 0.869691 0.865021 0.860488
+0.856094 0.851840 0.847727 0.843752 0.839915 0.836213 0.832642 0.829200 0.825883 0.822686
+0.819607 0.816640 0.813782 0.811028 0.808374 0.805815 0.803349 0.800971 0.798676 0.796462
+0.794325 0.792261 0.790267 0.788340 0.786476 0.784673 0.782928 0.781238 0.779601 0.778014
+0.776475 0.774981 0.773531 0.772123 0.770754 0.769423 0.768129 0.766868 0.765641 0.764445
+0.763279 0.762142 0.761033 0.759950 0.758892 0.757858 0.756847 0.755858 0.754890 0.753943
+0.753015 0.752106 0.751215 0.750341 0.749484 0.748642 0.747816 0.747004 0.746207 0.745424
+0.744653 0.743896 0.743150 0.742417 0.741695 0.740984 0.740284 0.739594 0.738914 0.738244
+0.737583 0.736932 0.736289 0.735655 0.735030 0.734412 0.733803 0.733201 0.732607 0.732021
+0.731441 0.730869 0.730304 0.729745 0.729193 0.728648 0.728109 0.727576 0.727049 0.726529
+0.726014 0.725505 0.725002 0.724505 0.724013 0.723527 0.723047 0.722571 0.722101 0.721637
+0.721178 0.720724 0.720275 0.719831 0.719392 0.718958 0.718530 0.718106 0.717687 0.717274
+0.716865 0.716461 0.716062 0.715667 0.715278 0.714893 0.714514 0.714139 0.713769 0.713403
+0.713043 0.712687 0.712336 0.711989 0.711648 0.711311 0.710979 0.710652 0.710330 0.710012
+0.709699 0.709391 0.709088 0.708789 0.708495 0.708206 0.707922 0.707643 0.707369 0.707099
+0.706834 0.706574 0.706319 0.706069 0.705823 0.705583 0.705347 0.705116 0.704890 0.704669
+0.704453 0.704242 0.704036 0.703835 0.703638 0.703447 0.703260 0.703079 0.702902 0.702730
+0.702564 0.702402 0.702245 0.702094 0.701947 0.701805 0.701668 0.701537 0.701410 0.701288
+0.701171 0.701059 0.700953 0.700851 0.700754 0.700662 0.700575 0.700493 0.700417 0.700345
+0.700278 0.700216 0.700159 0.700107 0.700059 0.700017 0.700000
+
+
+[COMPOUND]
+Name="Street"
+FRONT:                                // Arguments: ALL, FRONT, REAR, LEFT, RIGHT, FRONTLEFT, FRONTRIGHT, REARLEFT, REARRIGHT
+DryLatLong=(1.200, 1.200)             // Lateral/longitudinal coefficients in dry weather
+WetLatLong=(1.370, 1.370)             // Lateral/longitudinal coefficients in wet weather
+Radius=0.3660                         // Radius of tire
+RadiusRPM=2.01e-6                     // Increased radius per unit RPM
+Width=0.294                           // Width of tire
+SpringBase=43740.0                    // Base spring rate with no pressure
+SpringkPa=1396.58                     // Spring rate per unit pressure
+Damper=1345.0                         // Damping rate of tire
+SpeedEffects=(500.0,10.0)             // Speed at which grip drops to half (m/s, 0.0 to disable), speed load equivalency (see above)
+LoadSens=(-3.80e-6, 0.33, 25000.0)    // Load sensitivity of tire (initial slope, final grip multiplier, final load)
+LatPeak=(0.077, 0.285, 9500.0)        // Slip range where lateral peak force occurs depending on load
+LongPeak=(0.077, 0.285, 9500.0)       // Slip range where longitudinal peak force occurs depending on load
+LatCurve="Default"                    // Slip angle curve (data uses normalized angle)
+BrakingCurve="Default"                // Slip ratio curve under braking
+TractiveCurve="Default"               // Slip ratio curve under acceleration
+CamberLatLong=(1.00, 0.10, 0.11)      // Peak camber angle, lateral gain at peak, longitudinal loss at 90 degrees
+RollingResistance=3050.0              // Resistance torque (Nm) per unit deflection (m) on ground
+Heating=(5.00e-1, 5.00e-3)            // Heat caused by (rolling, friction)
+Transfer=(10.00e-3, 2.00e-3, 3.20e-4) // Heat transfer to (road, static air, moving air)
+HeatDistrib=(14.00,120.0)             // (Max camber angle, max off-pressure) that affects heat distribution (higher number -> less temperature difference)
+AirTreadRate=0.010                    // Heat transfer between tread and inside air
+WearRate=0.240e-6                     // Wear rate constant
+Softness=0.6                          // Softness is now just for AI strategic use
+AIGripMult=1.040                      // Grip multiplier for AI vehicles (due to tire model simplification)
+AIPeakSlip=0.092                      // Simple peak slip angle for AI vehicles
+AIWear=0.701e-7                       // AI wear rate constant
+Temperatures=(83.0, 20.0)             // Optimum operating temperature for peak forces (Celsius), starting temperature
+OptimumPressure=(154.0, 0.0170)       // Base pressure to remain flat on ground at zero deflection, and multiplier by load to stay flat on ground
+GripTempPress=(0.95, 0.50, 0.40)      // Grip effects of being below temp, above temp, and off-pressure (higher number -> faster grip dropoff)
+//
+REAR:
+DryLatLong=(1.200, 1.200)
+WetLatLong=(1.370, 1.370)
+Radius=0.3660                         // Radius of tire
+RadiusRPM=2.01e-6
+Width=0.294
+SpringBase=43740.0
+SpringkPa=1396.58 
+Damper=1345.0
+SpeedEffects=(500.0,10.0)
+LoadSens=(-3.80e-6, 0.33, 25000.0)
+LatPeak=(0.077, 0.285, 9500.0)
+LongPeak=(0.077, 0.285, 9500.0)
+LatCurve="Default"
+BrakingCurve="Default"
+TractiveCurve="Default"
+CamberLatLong=(0.50, 0.10, 0.11)
+RollingResistance=3050.0
+Heating=(5.00e-1, 5.00e-3)
+Transfer=(10.00e-3, 2.00e-3, 3.20e-4)
+HeatDistrib=(14.00,120.0)
+AirTreadRate=0.010 
+WearRate=0.240e-6
+Softness=0.6
+AIGripMult=1.080
+AIPeakSlip=0.092
+AIWear=0.701e-7
+Temperatures=(83.0, 20.0) 
+OptimumPressure=(154.0, 0.0170)
+GripTempPress=(0.95, 0.50, 0.40)

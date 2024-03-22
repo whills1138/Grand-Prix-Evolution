@@ -1,0 +1,20 @@
+Martin Brundle
+{
+ //Driver Info
+ Nationality=Grande Bretagne
+ DateofBirth=28-9-68
+ Starts=42
+ Poles=0
+ Wins=0
+ QualifyingAbility=3.5
+ 
+  Aggression=81
+  //Crash=1
+  Courtesy=70
+  Recovery=75
+  MinRacingSkill=97
+  Speed=94
+  Reputation=96
+  Composure=93
+  CompletedLaps=98
+}

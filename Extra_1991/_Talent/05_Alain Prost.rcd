@@ -1,0 +1,21 @@
+Alain Prost
+{
+ //Driver Info
+ Nationality=Brazil
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    QualifyingAbility=3.6
+    Aggression=82
+    Reputation=80
+    Courtesy=70
+    Composure=85
+    Speed=92.4
+    //Crash=1
+    Recovery=80
+    CompletedLaps=90
+    MinRacingSkill=93
+}

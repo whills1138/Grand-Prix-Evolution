@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX93_28.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra93_Upgrades.ini      // Vehicle upgrades information
+GenString=noselWH                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX93_AI
+BaseVehiclePrice=0
+
+
+Number=28
+Team="GPEX1993 12 Ferrari"
+PitGroup="Group12"
+Driver="Gerhard Berger"
+Description="28 Gerhard Berger"
+Engine="Ferrari"
+
+Classes="Grand_Prix_Extra_1993"
+
+FullTeamName="Ferrari"
+Manufacturer="Ferrari - Ferrari"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1993 Season"

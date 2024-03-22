@@ -1,0 +1,21 @@
+Olivier Panis
+{
+ //Driver Info
+ Nationality=French
+ DateofBirth=2-9-66
+ Starts=108
+ Poles=0
+ Wins=1
+ DriversChampionships=0
+ 
+  QualifyingAbility=11
+  Aggression=71.0
+  Reputation=65.0
+  Courtesy=95.0
+  Composure=84.0
+  Speed=62
+  //Crash=1 //10.5
+  Recovery=75 //6.0
+  CompletedLaps=92.0
+  MinRacingSkill=90.0
+}

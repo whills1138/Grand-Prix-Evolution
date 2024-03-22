@@ -1,0 +1,20 @@
+Roland Ratzenberger
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=01-01-1963
+  Starts=109
+  Poles=0
+  Wins=0
+  QualifyingAbility=14.5
+
+  Aggression=72
+  //Crash=1
+  Courtesy=80
+  Recovery=75
+  MinRacingSkill=86.5
+  Speed=72
+  Reputation=82
+  Composure=86
+  CompletedLaps=91
+}

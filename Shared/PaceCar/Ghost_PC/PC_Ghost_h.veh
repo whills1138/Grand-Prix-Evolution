@@ -1,0 +1,34 @@
+//PC Ghost
+DefaultLivery="94_PC.DDS"
+
+HDVehicle=PC_Ghost.hdv
+Graphics=PC_Ghost_hammer.gen
+GenString=                 
+Sounds=PC_Ghost.sfx
+Cameras=PC_Ghost.cam 
+HeadPhysics=PC_Ghost_HeadPhysics.ini 
+
+Eyepoint=(0.33, 1.05, 0.105)        
+CameraTarget=(0.000, 0.550, 0.350)  
+TVOffset=(0.0,0.5,-0.3)             
+MirrorPos=(0.10, 1.10, -0.95)       
+FrontWheelsInCockpit=0              
+
+Number=00
+Team="Pace Car"
+PitGroup="Group1"
+Driver=""
+Description="Pace Car"
+Engine="N/A"
+Manufacturer="N/A"
+Classes="PC_h PaceCar NO_AI"
+
+FullTeamName="Pace Car"
+TeamFounded=0000
+TeamHeadquarters=""
+TeamStarts=00
+TeamPoles=00
+TeamWins=00
+TeamWorldChampionships=0
+
+Category="Pace Car"

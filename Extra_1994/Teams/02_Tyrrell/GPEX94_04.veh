@@ -1,0 +1,38 @@
+
+DefaultLivery=GPX94_04.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra94_Upgrades.ini      // Vehicle upgrades information
+GenString=noselWH                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX94_AI
+BaseVehiclePrice=0
+
+
+Number=04
+Team="GPEX1994 02 Tyrrell"
+PitGroup="Group2"
+Driver="Mark Blundell"
+Description="04 Mark Blundell"
+Engine="Yamaha"
+
+Classes="Grand_Prix_Extra_1994"
+
+FullTeamName="Tyrrell"
+Manufacturer="Tyrrell - Yamaha"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1994 Season"

@@ -1,0 +1,20 @@
+Alex Wurz
+{
+//Nationality=Austrian
+ DateofBirth=15-2-74
+ Starts=35
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+
+  QualifyingAbility=4.5
+  Aggression=75.0
+  Reputation=78.0
+  Courtesy=80.0
+  Composure=91.5
+  Speed=82
+  //Crash=1 //6.5
+  Recovery=75 //9.0
+  CompletedLaps=90.0
+  MinRacingSkill=94.0
+}

@@ -1,0 +1,20 @@
+Paul Belmondo
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=27-07-1964
+  Starts=109
+  Poles=0
+  Wins=0
+  QualifyingAbility=15.0
+
+  Aggression=70
+  //Crash=1
+  Courtesy=90
+  Recovery=75
+  MinRacingSkill=85.5
+  Speed=63
+  Reputation=80
+  Composure=85
+  CompletedLaps=90
+}

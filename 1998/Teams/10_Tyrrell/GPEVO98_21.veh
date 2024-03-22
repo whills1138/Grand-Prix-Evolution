@@ -1,0 +1,45 @@
+
+DefaultLivery=GPE9810.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=GN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+BaseVehiclePrice=500
+
+
+Number=21
+Team="GPE98 10 Tyrrell"
+PitGroup="Group10"
+Driver="Tora Takagi"
+Description="21 Tora Takagi"
+Engine="Ford"
+
+Classes="Grand_Prix_Evo_1998"
+
+FullTeamName="Tyrrell"
+Manufacturer="Tyrrell - Ford"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1998"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

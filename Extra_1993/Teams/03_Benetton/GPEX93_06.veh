@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX93_06.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra93_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehYE                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX93_AI
+BaseVehiclePrice=0
+
+
+Number=06
+Team="GPEX1993 03 Benetton"
+PitGroup="Group3"
+Driver="Riccardo Patrese"
+Description="06 Riccardo Patrese"
+Engine="Ford"
+
+Classes="Grand_Prix_Extra_1993"
+
+FullTeamName="Benetton"
+Manufacturer="Benetton - Ford"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1993 Season"

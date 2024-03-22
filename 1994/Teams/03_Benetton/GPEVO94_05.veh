@@ -1,0 +1,38 @@
+
+DefaultLivery=GPE94_05.tga"
+
+
+HDVehicle=Form94.hdv
+Graphics=Form94.gen
+Spinner=Form94_Spinner.gen
+Upgrades=Form94_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehLB                        // Used to generate GMT names in *.gen file
+Cameras=Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=Form94_Sounds.sfx
+HeadPhysics=Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=Form94_cockpitinfo.ini
+
+AIUpgradeClass=GP94_AI
+BaseVehiclePrice=500
+
+
+Number=05
+Team="GPE94 03 Benetton"
+PitGroup="Group3"
+Driver="Michael Schumacher"
+Description="05 Michael Schumacher"
+Engine="Ford"
+
+Classes="Grand_Prix_Evo_1994"
+
+FullTeamName="Benetton"
+Manufacturer="Benetton - Ford"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1994"

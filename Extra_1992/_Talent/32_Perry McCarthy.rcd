@@ -1,0 +1,14 @@
+Perry McCarthy
+{
+  QualifyingAbility=10.0
+
+  Aggression=70
+  Reputation=75
+  Courtesy=90
+  Composure=75
+  Speed=77
+  Crash=1.5
+  Recovery=50
+  CompletedLaps=90
+  MinRacingSkill=85
+}

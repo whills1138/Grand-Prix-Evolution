@@ -1,0 +1,45 @@
+
+DefaultLivery=GPX9805.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra98_Upgrades.ini   
+GenString=GN            
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+BaseVehiclePrice=0
+
+
+Number=09
+Team="GPEX1998 05 Jordan"
+PitGroup="Group5"
+Driver="Damon Hill"
+Description="09 Damon Hill"
+Engine="Mugen Honda"
+
+Classes="Grand_Prix_Extra_1998"
+
+FullTeamName="Jordan"
+Manufacturer="Jordan - Mugen Honda"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1998 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

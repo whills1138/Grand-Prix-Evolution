@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX0008b.tga"
+Extra1="_02"
+Extra3="_02H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra00_Upgrades.ini   
+GenString=B0           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX00_AI
+
+
+Number=17
+Team="GPEX2000 08 Sauber"
+PitGroup="Group8"
+Driver="Mika Salo"
+Description="17 Mika Salo"
+Engine="Petronas"
+
+Classes="Grand_Prix_Extra_2000"
+
+FullTeamName="Sauber"
+Manufacturer="Sauber - Petronas"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,2000 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

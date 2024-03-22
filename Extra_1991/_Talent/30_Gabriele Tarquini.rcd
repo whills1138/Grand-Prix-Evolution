@@ -1,0 +1,21 @@
+Gabriele Tarquini
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    QualifyingAbility=16.5
+    Aggression=70
+    Reputation=80
+    Courtesy=80
+    Composure=85
+    Speed=62.5
+    //Crash=1
+    Recovery=80
+    CompletedLaps=90
+    MinRacingSkill=85
+}

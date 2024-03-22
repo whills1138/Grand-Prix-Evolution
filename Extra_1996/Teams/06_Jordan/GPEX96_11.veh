@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX9606.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra96_Upgrades.ini   
+GenString=GN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX96_AI
+
+
+Number=11
+Team="GPEX1996 06 Jordan"
+PitGroup="Group6"
+Driver="Rubens Barrichello"
+Description="11 Rubens Barrichello"
+Engine="Peugeot"
+
+Classes="Grand_Prix_Extra_1996"
+
+FullTeamName="Jordan"
+Manufacturer="Jordan - Peugeot"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1996 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

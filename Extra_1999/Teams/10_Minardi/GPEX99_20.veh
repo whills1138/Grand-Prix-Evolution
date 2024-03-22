@@ -1,0 +1,44 @@
+
+DefaultLivery="GPX9910.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=1998\Form98.hdv
+Graphics=1998\Form98.gen
+Spinner=1998\Form98_Spinner.gen
+Upgrades=Extra99_Upgrades.ini   
+GenString=BN           
+Cameras=1998\Form98.cam    
+Sounds=1998\Form98_Sounds.sfx
+HeadPhysics=1998\Form98_HeadPhysics.ini 
+Cockpit=1998\Form98_cockpitinfo.ini
+
+AIUpgradeClass=GPEX99_AI
+
+
+Number=20
+Team="GPEX1999 10 Minardi"
+PitGroup="Group10"
+Driver="Luca Badoer"
+Description="20 Luca Badoer"
+Engine="Ford"
+
+Classes="Grand_Prix_Extra_1999"
+
+FullTeamName="Minardi"
+Manufacturer="Minardi - Ford"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1999 Season"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

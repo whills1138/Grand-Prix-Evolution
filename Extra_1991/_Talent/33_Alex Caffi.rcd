@@ -1,0 +1,21 @@
+Alex Caffi
+{
+ //Driver Info
+ Nationality=x
+ DateofBirth=28-9-68
+ Starts=64
+ Poles=0
+ Wins=0
+ DriversChampionships=0
+ 
+    QualifyingAbility=17.5
+    Aggression=70
+    Reputation=80
+    Courtesy=90
+    Composure=85
+    Speed=62
+    //Crash=1
+    Recovery=80
+    CompletedLaps=90
+    MinRacingSkill=85
+}

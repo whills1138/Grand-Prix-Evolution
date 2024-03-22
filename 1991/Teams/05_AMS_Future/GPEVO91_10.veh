@@ -1,0 +1,37 @@
+
+DefaultLivery="GPE91_09.tga"
+
+HDVehicle=Form91.hdv
+Graphics=Form91.gen
+Spinner=Form91_Spinner.gen
+Upgrades=Form91_Upgrades.ini
+Cameras=Form91.cam     
+Sounds=Form91_Sounds.sfx
+HeadPhysics=Form91_HeadPhysics.ini 
+Cockpit=Form91_cockpitinfo.ini
+GenString=2N
+
+AIUpgradeClass=GP91_AI
+BaseVehiclePrice=500
+
+
+Number=10
+Team="GPE91 05 ASM Future"
+PitGroup="Group5"
+Driver="Karl Sorensson"
+Description="10 Karl Sorensson"
+Engine="Sorrell"
+
+Classes="Grand_Prix_Evo_1991"
+
+FullTeamName="ASM"
+Manufacturer="ASM Future - Sorrell"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1991"

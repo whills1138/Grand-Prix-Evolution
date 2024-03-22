@@ -1,0 +1,45 @@
+
+DefaultLivery=GPE9809.tga"
+Extra1="_01"
+Extra3="_01H"
+
+HDVehicle=Form98.hdv
+Graphics=Form98.gen
+Spinner=Form98_Spinner.gen
+Upgrades=Form98_Upgrades.ini   
+GenString=BN            
+Cameras=Form98.cam    
+Sounds=Form98_Sounds.sfx
+HeadPhysics=Form98_HeadPhysics.ini 
+Cockpit=Form98_cockpitinfo.ini
+
+AIUpgradeClass=GP98_AI
+BaseVehiclePrice=500
+
+
+Number=18
+Team="GPE98 09 Stewart"
+PitGroup="Group9"
+Driver="Rubens Barrichello"
+Description="18 Rubens Barrichello"
+Engine="Ford"
+
+Classes="Grand_Prix_Evo_1998"
+
+FullTeamName="Stewart"
+Manufacturer="Stewart - Ford"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo 1998"
+[RFETire] 
+RFETireCompat= 1 
+RFETireGMTCount= 1 
+RFETireGMTLOD0= 0.0f 
+RFETireGMTLOD1= 250.0f 
+RFETireGMTLODOut = 10000.0f 

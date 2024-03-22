@@ -1,0 +1,36 @@
+
+DefaultLivery="GPX91_34.tga"
+
+HDVehicle=1991\Form91.hdv
+Graphics=1991\Form91.gen
+Spinner=1991\Form91_Spinner.gen
+Upgrades=Extra91_Upgrades.ini
+Cameras=1991\Form91.cam     
+Sounds=1991\Form91_Sounds.sfx
+HeadPhysics=1991\Form91_HeadPhysics.ini 
+Cockpit=1991\Form91_cockpitinfo.ini
+GenString=1N
+
+AIUpgradeClass=GPEX91_AI
+
+
+Number=34
+Team="GPEX1991 18 Lambo"
+PitGroup="Group18"
+Driver="Nicola Larini"
+Description="34 Nicola Larini"
+Engine="Lamborghini"
+FullTeamName="Lambo"
+Manufacturer="Lambo - Lamborghini"
+Classes="Grand_Prix_Extra_1991"
+
+//Lambo"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1991 Season"

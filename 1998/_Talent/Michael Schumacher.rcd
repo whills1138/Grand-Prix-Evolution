@@ -1,0 +1,21 @@
+Michael Schumacher
+{
+//Driver Info
+  Nationality=German
+  DateofBirth=03-01-1969
+  Starts=232
+  Poles=64
+  Wins=84
+  DriversChampionships=7
+
+  QualifyingAbility=2
+  Aggression=88.0
+  Reputation=93.0
+  Courtesy=60.0
+  Composure=99.5
+  Speed=97
+  //Crash=1
+  Recovery=75 //50.0
+  CompletedLaps=96.0
+  MinRacingSkill=95.0
+}

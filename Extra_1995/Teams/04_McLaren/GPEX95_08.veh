@@ -1,0 +1,37 @@
+
+DefaultLivery="GPX95_08.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra95_Upgrades.ini      // Vehicle upgrades information
+GenString=nosehRE                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX95_AI
+
+
+Number=08
+Team="GPEX1995 04 McLaren"
+PitGroup="Group4"
+Driver="Mika Hakkinen"
+Description="08 Mika Hakkinen"
+Engine="Mercedes"
+
+Classes="Grand_Prix_Extra_1995"
+
+FullTeamName="McLaren"
+Manufacturer="McLaren - Mercedes"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1995 Season"

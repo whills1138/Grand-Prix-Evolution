@@ -1,0 +1,20 @@
+Erik Comas
+{
+//Driver Info
+  Nationality=French
+  DateofBirth=28-9-1963
+  Starts=109
+  Poles=0
+  Wins=0
+  QualifyingAbility=11.5
+
+  Aggression=75
+  //Crash=1
+  Courtesy=80
+  Recovery=75
+  MinRacingSkill=88.75
+  Speed=77
+  Reputation=85
+  Composure=87
+  CompletedLaps=93
+}

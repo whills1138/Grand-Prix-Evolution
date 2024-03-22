@@ -1,0 +1,38 @@
+
+DefaultLivery="GPX93_30.tga"
+
+
+HDVehicle=1994\Form94.hdv
+Graphics=1994\Form94.gen
+Spinner=1994\Form94_Spinner.gen
+Upgrades=Extra93_Upgrades.ini      // Vehicle upgrades information
+GenString=noselBL                        // Used to generate GMT names in *.gen file
+Cameras=1994\Form94.cam      // Defaults to cams.cfg in UserData directory
+Sounds=1994\Form94_Sounds.sfx
+HeadPhysics=1994\Form94_HeadPhysics.ini       // Affects driver eyepoint only
+Cockpit=1994\Form94_cockpitinfo.ini
+
+AIUpgradeClass=GPEX93_AI
+BaseVehiclePrice=0
+
+
+Number=30
+Team="GPEX1993 13 Sauber"
+PitGroup="Group13"
+Driver="JJ Lehto"
+Description="30 JJ Lehto"
+Engine="Sauber"
+
+Classes="Grand_Prix_Extra_1993"
+
+FullTeamName="Sauber"
+Manufacturer="Sauber - Sauber"
+TeamFounded=
+TeamHeadquarters=
+TeamStarts=
+TeamPoles=
+TeamWins=
+TeamWorldChampionships=
+
+
+Category="Grand Prix Evo Extra,1993 Season"

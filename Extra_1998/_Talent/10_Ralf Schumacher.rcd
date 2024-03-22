@@ -1,0 +1,21 @@
+Ralf Schumacher
+{
+ //Driver Info
+ Nationality=German
+ DateofBirth=30-6-75
+ Starts=83
+ Poles=1
+ Wins=3
+ DriversChampionships=0
+
+  QualifyingAbility=5
+  Aggression=74.0
+  Reputation=72.0
+  Courtesy=70
+  Composure=85.0
+  Speed=80
+  //Crash=1 //7.5
+  Recovery=75 //12.0
+  CompletedLaps=90.0
+  MinRacingSkill=91.0
+}
